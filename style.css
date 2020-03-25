@@ -73,6 +73,23 @@ ul.sidenav li a:hover:not(.active) {
   margin-top: 20px;
 } */
 
+/*Ikoner css start*/
+.flexbox-ikoner {
+  display: flex;
+}
+
+.burgermenu {
+  height: 15em;
+  width: 15em;
+}
+
+.infobox {
+  border: solid 3px #A5BA73;
+}
+.infobox article{
+  padding:10px, 10px;
+}
+/*Ikoner css start*/
 
 
 @media screen and (max-width: 900px) {
