@@ -42,15 +42,6 @@ ul.sidenav li a:hover:not(.active) {
   padding: 1px 20px;
 }
 
-
-
-/* div.standard {
-  margin-left: 25%;
-  padding: 1px 16px;
-} */
-
-
-
 .standardknap {
  padding: 15px;
  border: 2px solid #a6bb75;
@@ -62,9 +53,15 @@ ul.sidenav li a:hover:not(.active) {
  display: inline-block;
 }
 
-.standardknap:hover {
-  background-color: #A5BA75;
-  color: white;
+.aktknap {
+ padding: 15px;
+ border: 2px solid #a6bb75;
+ color: #ffffff;
+ font-weight: bold;
+ text-decoration: none;
+ font-size: 15px;
+ background-color: #a6bb75;
+ display: inline-block;
 }
 
 /* xmp.standardtekst{
