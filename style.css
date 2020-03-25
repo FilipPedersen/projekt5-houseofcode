@@ -66,6 +66,29 @@ margin-top: 50px;
  display: inline-block;
 }
 
+/* xmp.standardtekst{
+  float: left;
+  margin-left: 200px;
+  margin-top: 20px;
+} */
+
+/*Ikoner css start*/
+.flexbox-ikoner {
+  display: flex;
+}
+
+.burgermenu {
+  height: 15em;
+  width: 15em;
+}
+
+.infobox {
+  border: solid 3px #A5BA73;
+}
+.infobox article{
+  padding:10px, 10px;
+}
+/*Ikoner css start*/
 
 
 @media screen and (max-width: 900px) {
