@@ -37,6 +37,23 @@ div.content {
   height: 1000px;
 }
 
+.standardknap {
+ padding: 15px;
+ border: 3px solid #a6bb75;
+ color: #a6bb75;
+ font-weight: bold;
+ text-decoration: none;
+ font-size: 16px;
+ background-color: white;
+ display: inline-block;
+}
+
+.standardknap:hover {
+  background-color: #A5BA75;
+  color: white;
+}
+
+
 @media screen and (max-width: 900px) {
   ul.sidenav {
     width: 100%;
