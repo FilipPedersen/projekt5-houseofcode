@@ -43,6 +43,7 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .standardknap {
+  margin-top: 20px;
  padding: 15px;
  border: 2px solid #a6bb75;
  color: #a6bb75;
@@ -54,6 +55,7 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .aktknap {
+margin-top: 50px;
  padding: 15px;
  border: 2px solid #a6bb75;
  color: #ffffff;
