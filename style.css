@@ -31,6 +31,11 @@ ul.sidenav li a:hover:not(.active) {
   color: white;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
 div.content {
   margin-left: 25%;
   padding: 1px 16px;
@@ -38,6 +43,10 @@ div.content {
 
 div.standard {
   margin-left: 25%;
+  padding: 1px 16px;
+}
+
+div.aktiveret {
   padding: 1px 16px;
 }
 
