@@ -31,16 +31,25 @@ ul.sidenav li a:hover:not(.active) {
   color: white;
 }
 
-
-div.content {
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
   margin-left: 25%;
-  padding: 1px 16px;
+  padding: 1px 20px;
 }
 
-div.standard {
+
+
+/* div.standard {
   margin-left: 25%;
   padding: 1px 16px;
-}
+} */
+
+
 
 .standardknap {
  padding: 15px;
@@ -51,7 +60,6 @@ div.standard {
  font-size: 15px;
  background-color: white;
  display: inline-block;
- position: absolute;
 }
 
 .standardknap:hover {
@@ -59,11 +67,11 @@ div.standard {
   color: white;
 }
 
-xmp.standardtekst{
+/* xmp.standardtekst{
   float: left;
   margin-left: 200px;
   margin-top: 20px;
-}
+} */
 
 
 
@@ -77,10 +85,7 @@ xmp.standardtekst{
     float: left;
     padding: 15px;
   }
-  div.content {
-    margin-left: 0;
-  }
-  div.standard {
+  div.container {
     margin-left: 0;
   }
 
