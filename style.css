@@ -66,29 +66,85 @@ margin-top: 50px;
  display: inline-block;
 }
 
-/* xmp.standardtekst{
-  float: left;
-  margin-left: 200px;
-  margin-top: 20px;
-} */
+/* Kontaktformular start*/
+#myform{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.kontakt-wrapper{
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.kontakt-wrapper h3{
+  margin-bottom: 25px;
+  text-transform: uppercase;;
+  color: #515f6d;
+  font-size: 20px;
+}
+
+.kontakt-wrapper .input_field{
+  margin-bottom: 25px;
+}
+
+.kontakt-wrapper .input_field input[type="text"],
+.kontakt-wrapper textarea{
+  width: 90%;
+  padding: 15px;
+  border-color: #a6bb75;
+  border: 3px solid #a6bb75;
+}
+
+.kontakt-wrapper textarea{
+  height: 80px;
+  resize: none;
+}
+
+.kontakt-wrapper .kon-btn input[type="submit"]{
+  border: none;
+  margin-top: 0px;
+  padding: 15px;
+  width: 100%;
+  background: #a6bb75;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+}
+
+.kontakt-wrapper #error_message{
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+#name, #email, #nummer{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Kontaktformular slut */
 
 /*Ikoner css start*/
-.flexbox-ikoner {
-  display: flex;
-}
-
-.burgermenu {
-  height: 15em;
-  width: 15em;
-}
-
 .infobox {
   border: solid 3px #A5BA73;
 }
-.infobox article{
-  padding:10px, 10px;
-}
-/*Ikoner css start*/
+  .infobox p{
+    width: auto;
+    padding: 15, 15px;
+    }
+/*Ikoner css slut*/
 
 
 @media screen and (max-width: 900px) {
