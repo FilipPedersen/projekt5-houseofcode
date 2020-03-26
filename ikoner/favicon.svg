@@ -1,70 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
 <style type="text/css">
-	.st0{display:none;fill:#B74141;}
-	.st1{fill:#E6E6E6;}
-	.st2{fill:#515F6D;}
-	.st3{fill:#D36D75;}
-	.st4{fill:#6696AC;}
-	.st5{fill:#D8A55B;}
-	.st6{fill:#A6BB75;}
-	.st7{fill:#D7734B;}
-	.st8{fill:#AA81AC;}
+	.st0{fill:#E6E6E6;}
+	.st1{fill:#515F6D;}
+	.st2{fill:#D36D75;}
+	.st3{fill:#6696AC;}
+	.st4{fill:#D8A55B;}
+	.st5{fill:#A6BB75;}
+	.st6{fill:#D7734B;}
+	.st7{fill:#AA81AC;}
 </style>
-<g id="Layer_1">
+<g>
+	<rect x="6.79" y="3.52" class="st0" width="5.93" height="1.01"/>
+	<rect x="3.55" y="6.61" class="st1" width="5.74" height="0.98"/>
+	<rect x="11.26" y="4.98" class="st2" width="3.28" height="1.01"/>
+	<rect x="8.48" y="4.98" class="st3" width="2.1" height="1.01"/>
+	<rect x="5.14" y="4.98" class="st4" width="2.66" height="1.01"/>
+	<rect x="9.93" y="6.6" class="st5" width="2.79" height="1.01"/>
+	<rect x="4.65" y="8.23" class="st6" width="2.33" height="1.01"/>
+	<rect x="7.62" y="8.23" class="st0" width="1.16" height="1.01"/>
+	<rect x="9.45" y="8.23" class="st7" width="4.26" height="1.01"/>
+	<rect x="12.55" y="9.73" class="st2" width="3.45" height="1.01"/>
+	<rect x="10.75" y="9.73" class="st3" width="1.14" height="1.01"/>
+	<rect x="3.55" y="9.73" class="st1" width="6.55" height="1.01"/>
+	<rect x="8.29" y="11.36" class="st4" width="4.76" height="1.01"/>
+	<rect x="0.1" y="11.36" class="st1" width="7.52" height="1.01"/>
 	
-		<image style="display:none;overflow:visible;opacity:0.65;" width="112" height="72" xlink:href="data:image/jpeg;base64,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
-G8EmJI7KDfIkaIzX3jGa+8YzX3j+U//Z" transform="matrix(1 0 0 1 -6.4 14.0857)">
-	</image>
-	<rect x="-6.4" y="14.09" class="st0" width="112" height="72"/>
-</g>
-<g id="Layer_2">
-	<g>
-		<rect x="43.43" y="25.15" class="st1" width="36.11" height="6.17"/>
-		<rect x="23.66" y="44.02" class="st2" width="34.97" height="5.97"/>
-		<rect x="70.63" y="34.09" class="st3" width="20" height="6.17"/>
-		<rect x="53.71" y="34.09" class="st4" width="12.8" height="6.17"/>
-		<rect x="33.37" y="34.09" class="st5" width="16.23" height="6.17"/>
-		<rect x="62.57" y="43.92" class="st6" width="16.97" height="6.17"/>
-		<rect x="30.4" y="53.86" class="st7" width="14.17" height="6.17"/>
-		<rect x="48.46" y="53.86" class="st1" width="7.09" height="6.17"/>
-		<rect x="59.66" y="53.86" class="st8" width="25.94" height="6.17"/>
-		<rect x="78.51" y="63" class="st3" width="21.03" height="6.17"/>
-		<rect x="67.54" y="63" class="st4" width="6.97" height="6.17"/>
-		<rect x="23.66" y="63" class="st2" width="39.89" height="6.17"/>
-		<rect x="52.57" y="72.95" class="st5" width="29.03" height="6.17"/>
-		<rect x="2.63" y="72.95" class="st2" width="45.83" height="6.17"/>
-		
-			<rect x="-8.77" y="60.52" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -57.8869 69.3107)" class="st2" width="28.97" height="6.17"/>
-		<rect x="29.84" y="25.15" class="st2" width="9.93" height="6.17"/>
-		<polygon class="st2" points="2.63,49.11 2.63,46.19 28.1,25.15 30.4,25.15 30.4,31.31 8.8,49.11 		"/>
-	</g>
+		<rect x="-1.77" y="9.32" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -9.2252 10.4294)" class="st1" width="4.75" height="1.01"/>
+	<rect x="4.56" y="3.52" class="st1" width="1.63" height="1.01"/>
+	<polygon class="st1" points="0.1,7.45 0.1,6.97 4.28,3.52 4.65,3.52 4.65,4.53 1.11,7.45 	"/>
 </g>
 </svg>
