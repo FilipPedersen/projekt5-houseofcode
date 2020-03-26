@@ -84,6 +84,7 @@ margin-top: 50px;
 
 .infobox {
   border: solid 3px #A5BA73;
+  width: 100%;
 }
 .infobox article{
   padding:10px, 10px;
