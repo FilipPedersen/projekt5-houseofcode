@@ -83,13 +83,9 @@ margin-top: 50px;
 
 .infobox {
   border: solid 3px #A5BA73;
-  display: flex;
+}
 
-}
-.infobox p{
-  padding:10px, 10px;
-}
-/*Ikoner css start*/
+/*Ikoner css slut*/
 
 
 @media screen and (max-width: 900px) {
