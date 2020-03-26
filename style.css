@@ -137,17 +137,13 @@ margin-top: 50px;
 /* Kontaktformular slut */
 
 /*Ikoner css start*/
-.flexbox-ikoner {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .infobox {
   border: solid 3px #A5BA73;
-
+}
+  .infobox p{
+    width: auto;
+    padding: 15, 15px;
+    }
 /*Ikoner css slut*/
 
 
