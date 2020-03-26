@@ -76,7 +76,6 @@ margin-top: 50px;
 }
 
 .kontakt-wrapper{
-  position: absolute;
   max-width: 350px;
   width: 100%;
   background: #fff;
@@ -134,7 +133,6 @@ margin-top: 50px;
 #name, #email, #nummer{
   font-family: 'Roboto Mono', monospace;
 }
-
 
 /* Kontaktformular slut */
 
