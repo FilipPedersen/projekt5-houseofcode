@@ -54,8 +54,20 @@ ul.sidenav li a:hover:not(.active) {
  display: inline-block;
 }
 
+.standard p{
+  font-size: 12px;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+
+.aktiveret p{
+  font-size: 12px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
 .aktknap {
-margin-top: 50px;
+margin-top: 0px;
  padding: 15px;
  border: 2px solid #a6bb75;
  color: #ffffff;
