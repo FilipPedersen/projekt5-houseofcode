@@ -150,6 +150,29 @@ margin-top: 50px;
 .infobox {
   border: solid 3px #A5BA73;
 }
+#icons {
+  margin-top:20px;
+
+}
+#icons .icon{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#icons .icon img{
+  width: 90px;
+}
+
+@media(max-width: 768px){
+  #icons .icon,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
 
 /*Ikoner css slut*/
 
