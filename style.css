@@ -141,17 +141,18 @@ margin-top: 50px;
 /*Ikoner css start*/
 .flexbox-ikoner {
   display: flex;
-}
-
-.burgermenu {
-  height: 15em;
-  width: 15em;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .infobox {
   border: solid 3px #A5BA73;
+  display: flex;
+
 }
-.infobox article{
+.infobox p{
   padding:10px, 10px;
 }
 /*Ikoner css start*/
