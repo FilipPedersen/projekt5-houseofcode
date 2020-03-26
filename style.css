@@ -136,21 +136,27 @@ margin-top: 50px;
 /* Kontaktformular slut */
 
 /*Ikoner css start*/
-.alle-ikoner{
-  display: flex;
+.alle-ikoner-flex{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
 }
 
-.burgermenu {
-  height: 15em;
-  width: 15em;
+.alle-ikoner{
+  height: 15%;
+  width: 15%;
 }
 
 .infobox {
   border: solid 3px #A5BA73;
-  width: 100%;
+  width: auto;
 }
-.infobox article{
-  padding:10px, 10px;
+.infobox{
+  padding-left: 20px;
+  width: 40%;
 }
 /*Ikoner css start*/
 
