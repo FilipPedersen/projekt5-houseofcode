@@ -31,18 +31,19 @@ ul.sidenav li a:hover:not(.active) {
   color: white;
 }
 
-
-div.content {
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
   margin-left: 25%;
-  padding: 1px 16px;
-}
-
-div.standard {
-  margin-left: 25%;
-  padding: 1px 16px;
+  padding: 1px 20px;
 }
 
 .standardknap {
+  margin-top: 20px;
  padding: 15px;
  border: 2px solid #a6bb75;
  color: #a6bb75;
@@ -51,20 +52,43 @@ div.standard {
  font-size: 15px;
  background-color: white;
  display: inline-block;
- position: absolute;
 }
 
-.standardknap:hover {
-  background-color: #A5BA75;
-  color: white;
+.aktknap {
+margin-top: 50px;
+ padding: 15px;
+ border: 2px solid #a6bb75;
+ color: #ffffff;
+ font-weight: bold;
+ text-decoration: none;
+ font-size: 15px;
+ background-color: #a6bb75;
+ display: inline-block;
 }
 
-xmp.standardtekst{
+/* xmp.standardtekst{
   float: left;
   margin-left: 200px;
   margin-top: 20px;
+} */
+
+/*Ikoner css start*/
+.flexbox-ikoner {
+  display: flex;
 }
 
+.burgermenu {
+  height: 15em;
+  width: 15em;
+}
+
+.infobox {
+  border: solid 3px #A5BA73;
+}
+.infobox article{
+  padding:10px, 10px;
+}
+/*Ikoner css start*/
 
 
 @media screen and (max-width: 900px) {
@@ -77,10 +101,7 @@ xmp.standardtekst{
     float: left;
     padding: 15px;
   }
-  div.content {
-    margin-left: 0;
-  }
-  div.standard {
+  div.container {
     margin-left: 0;
   }
 
