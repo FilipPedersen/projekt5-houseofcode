@@ -66,6 +66,12 @@ ul.sidenav li a:hover:not(.active) {
   font-weight: bold;
 }
 
+.addknap p{
+  font-size: 12px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
 .aktknap {
 margin-top: 0px;
  padding: 15px;
