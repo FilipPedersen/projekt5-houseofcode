@@ -139,6 +139,7 @@ margin-top: 50px;
 /*Ikoner css start*/
 .infobox {
   border: solid 3px #A5BA73;
+  width: 100%;
 }
   .infobox p{
     width: auto;
