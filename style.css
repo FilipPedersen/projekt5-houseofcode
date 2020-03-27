@@ -154,28 +154,34 @@ margin-top: 0px;
 /* Kontaktformular slut */
 
 /*Ikoner css start*/
-.alle-ikoner-flex{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
-}
 
 .alle-ikoner{
   height: 15%;
   width: 15%;
 }
 
-.infobox {
-  border: solid 3px #A5BA73;
-  width: auto;
+.alle-ikoner {
+  margin: auto;
 }
+
+
 .infobox{
   padding-left: 20px;
   width: 40%;
+  border: solid 3px #A5BA73;
+  word-wrap: break-word;
+  text-align: center;
 }
+
+#links-ikoner {
+  width: 100%;
+}
+
+.links-ikon{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
 /*Ikoner css slut*/
 
 
