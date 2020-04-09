@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-parent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: blueviolet;
+    background-color: brown;
+    width: 100%;
+    height: 150px;
+}
+
+.logo{
+    display: flex;
+    background-color: cornflowerblue;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: ivory;
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: ivory;
+    height: 100%;
+}
+
+
+/*ALT INDHOLD (TEKSTEN, ILLUSTRATIONERNE, KNAPPERNE)*/
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: darksalmon;
+    height: auto;
+    width: 60%;
+}
+.text h1{
+    width: 100%;
+    
+    background-color: deeppink;
+}
+.text p{
+    width: 100%;
+    background-color: khaki;
+}
+
+.illustration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100%;
+    height: 400px;
+    background-color: lightgreen;
+}
+
+.knap-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightcoral;
+    height: 100px;
+    width: 60%;
+}
+
+.knapper{
+    display: flex;
+    justify-content: space-around;
+    border: solid 3px green;
+}
+
+.processbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    color: ivory;
+    background-color: hotpink;
+}
