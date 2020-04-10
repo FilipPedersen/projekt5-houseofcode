@@ -18,7 +18,7 @@
     color: blueviolet;
     background-color: brown;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 
 .logo{
@@ -29,6 +29,11 @@
     align-items: center;
     color: ivory;
     height: 100%;
+}
+
+.logomobil{
+  width: 10vh;
+  height: 10vh;
 }
 
 .menu{
@@ -52,6 +57,29 @@
     height: auto;
 }
 
+/*Tekst mobil indledende text*/
+.gul-text{
+  color: #D7A458;
+}
+
+.lilla-text{
+  color: #AA81AC;
+}
+
+.blue-text{
+  color: #7CA5B8;
+}
+
+.orange-text{
+  color: #D46A3E;
+}
+
+/*brødtext*/
+.ekstra-text{
+  color: #404f5f;
+}
+
+
 .text{
     display: flex;
     justify-content: center;
@@ -60,30 +88,48 @@
     flex-direction: column;
     background-color: darksalmon;
     height: auto;
-    width: 60%;
+    width: 80%;
 }
 .text h1{
-    width: 100%;
-    text-align: start;
+    color: #404f5f;
+  
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
     background-color: deeppink;
+    text-align: center;
 }
 .text p{
     width: 100%;
-    text-align: start;
     background-color: khaki;
+    text-align: center;
 }
 
 .illustration{
-    margin-top: 5px;;
+    margin-top: 5px;
+    padding: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: lightgreen;
 }
 
+/*Forside svg illustration*/
+.illustrationmobil{
+  width: 55vh;
+  height: 55vh;
+  padding: auto;
+}
+
+/*knap area er til mobil verion layoutet*/
 .knap-area{
     display: flex;
     flex-direction: row;
@@ -96,12 +142,6 @@
     margin-bottom: 5px;
     padding-bottom: 10px;
     width: 60%;
-}
-
-.knapper{
-    display: flex;
-    justify-content: space-around;
-    border: solid 3px green;
 }
 
 .processbar{
@@ -486,6 +526,10 @@ margin-top: 0px;
     }
     .knap-area{
         display: none;
+    }
+    .text h1{
+    font-weight: 700;
+    font-size: 40px;
     }
   }
 /*MEDIA QUERIES SLUT*/
