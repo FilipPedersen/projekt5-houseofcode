@@ -6,7 +6,12 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  color: #000;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: normal;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: -0.013em;
 }
 
 /*FLEXBOX TIL HELE LAYOUTET*/
