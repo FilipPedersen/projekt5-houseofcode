@@ -9,6 +9,7 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+/*FLEXBOX TIL HELE LAYOUTET*/
 .flex-parent{
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +17,7 @@ body {
     height: auto;
 }
 
+/*HEADER TIL MOBIL*/
 .header {
     display: flex;
     flex-direction: row;
@@ -26,6 +28,7 @@ body {
     height: auto;
 }
 
+/*LOGO MOBIL*/
 .logo{
     display: flex;
     background-color: cornflowerblue;
@@ -41,6 +44,12 @@ body {
   height: 10vh;
 }
 
+.logoweb{
+  width: 10vh;
+  height: 10vh;
+}
+
+/*Burgermenu mobil*/
 .menu{
     display: flex;
     background-color: darkgoldenrod;
@@ -62,7 +71,7 @@ body {
     height: auto;
 }
 
-/*Tekst mobil indledende text*/
+/*SPAN TEKST, DET FARVEDE*/
 .gul-text{
   color: #D7A458;
 }
@@ -114,6 +123,7 @@ body {
     background-color: khaki;
     text-align: center;
 }
+/*TEXT STOP*/
 
 .illustration{
     margin-top: 5px;
@@ -149,6 +159,7 @@ body {
     width: 60%;
 }
 
+/*MOBIL PROCESSBAR*/
 .processbar{
     display: flex;
     justify-content: center;
@@ -160,7 +171,7 @@ body {
 }
 
 
-/*WEB*/
+/*WEB RELATERET CSS*/
 .web-processbaroglogo{
     display: flex;
     flex-direction: row;
@@ -171,20 +182,28 @@ body {
     height: auto;
 }
 
+/*BARE EN BLANK CONTAINER, 
+DER GØR VORES
+PROCESSBAR BLIVER PLACERET I MIDTEN*/
 .blank {
   display: flex;
   width: 30%;
   height: 100%;
   background-color: orange;
 }
-
+/*WEB LOGO*/
 .logo1{
     display: flex;
     width: 30%;
-    height: 100%;
+    height: auto;
     background-color: magenta;
+}/*NAV WEB*/
+.nav1{
+  background-color: #7CA5B8;
+  width: 30%;
 }
 
+/*MENU DETTE ER NAV OG LOGO WEBS BOXEN*/
 .menu1{
     display: flex;
     flex-direction: column;
@@ -194,6 +213,7 @@ body {
     background-color: mediumspringgreen;
 }
 
+/*PROCESSBAR WEB*/
 .processbar1{
     display: flex;
     width: 30%;
