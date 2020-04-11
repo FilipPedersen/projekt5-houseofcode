@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
 .flex-parent{
     display: flex;
     flex-wrap: wrap;
@@ -198,10 +203,7 @@
 }
 
 /*------------------STYLEGUIDE RELATERET START-------------------*/
-body {
-  margin: 0;
-  font-family: 'Roboto Mono', monospace;
-}
+
 
 ul.sidenav {
   list-style-type: none;
