@@ -136,7 +136,6 @@ width:374px;
   line-height:60px;
   margin: 0;
   padding:0;
-  text-size-adjust:100%;
   -webkit-font-smoothing:antialiased;
 }
 .text p{
@@ -261,7 +260,10 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
 .knap-area2 {
   display: flex;
   width: 50%;
-  justify-content: space-evenly;
+  padding-top: 100px;
+  justify-content: flex-end;
+  align-items: center;
+
 }
 
 
@@ -552,7 +554,6 @@ margin-top: 0px;
 
 @media screen and (min-width: 800px) {
     body {
-      margin-top: 0.5vh;
       margin-bottom: 0.5vh;
       height: 100%;
     }
@@ -591,13 +592,15 @@ margin-top: 0px;
     .text{
         width: 60%;
         height: auto;
+        text-align: left;
     }
     .knap-area{
         display: none;
     }
     .text h1{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 40px;'
+    justify-content: flex-start;
     }
   }
 /*MEDIA QUERIES SLUT*/
