@@ -587,10 +587,15 @@ margin-top: 0px;
         display: none;
     }
     .illustration{
-        height: 79.5vh;
+        height: 100%;
+        width: 40%;
     }
+    .illustration img{
+      
+      padding-top: 25%;
+  }
     .text{
-        width: 60%;
+        max-width: 450px;
         height: auto;
         text-align: left;
     }
