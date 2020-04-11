@@ -194,13 +194,16 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
 /*WEB LOGO*/
 .logo1{
     display: flex;
-    width: 30%;
+    width: 100%;
+    justify-content: center;
     height: auto;
     background-color: magenta;
 }/*NAV WEB*/
 .nav1{
+  display: flex;
+  justify-content: center;
   background-color: #7CA5B8;
-  width: 30%;
+  width: 100%;
 }
 
 /*MENU DETTE ER NAV OG LOGO WEBS BOXEN*/
