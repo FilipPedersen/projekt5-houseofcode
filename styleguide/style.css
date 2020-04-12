@@ -135,7 +135,7 @@ body {
   background-color: aquamarine;
   text-align: start;
   padding-left: 12px;
-  
+
 }
 
 /*STARTER TEKST PÅ MOBILVERSIONEN*/
@@ -170,6 +170,11 @@ body {
 .illustrationmobil{
   margin-top: 40px;
   height: 27vh;
+  padding: auto;
+}
+
+.illustrationmail{
+  height: 15vh;
   padding: auto;
 }
 
@@ -275,7 +280,7 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
       position: absolute;
       left: 0px;
       height: 92vh;
-      top: 10vh;
+      top: 8vh;
       display: flex;
       flex-direction: column;
       background-color: #ffffff;
@@ -285,7 +290,6 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
       list-style: none;
     }
     .nav-links2 a{
-      margin: 20px;
       text-decoration: none;
       color: #515f6d;
     }
@@ -464,7 +468,7 @@ margin-top: 0px;
 
 .kontakt-wrapper .input_field input[type="text"],
 .kontakt-wrapper textarea{
-  width: 100%;
+  width: 110%;
   padding: 15px;
   border-color: #a6bb75;
   border: 3px solid #a6bb75;
@@ -479,7 +483,7 @@ margin-top: 0px;
   border: none;
   margin-top: 0px;
   padding: 15px;
-  width: 110%;
+  width: 120%;
   background: #a6bb75;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -630,6 +634,9 @@ margin-top: 0px;
    .pattern{
      display: none;
    }
+   .pattern-email{
+     display: none;
+   }
    .knapper{
      display: none;
    }
@@ -643,6 +650,9 @@ margin-top: 0px;
     display: none;
   }
   .headline{
+    display: none;
+  }
+  .kontakt-wrapper{
     display: none;
   }
   }
@@ -734,12 +744,21 @@ margin-top: 0px;
   height: auto;
   background-color: lightblue;
   width: 500px;
+}
 
   /*pattern web*/
-}.pattern img{
+.pattern img{
   width: 200px;
   height: auto;
 }
+
+.pattern-email img{
+  height: 100%;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .pattern{
   background-color: pink;
 }
