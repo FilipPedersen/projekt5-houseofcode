@@ -156,7 +156,7 @@ body {
 
 /*Forside svg illustration*/
 .illustrationmobil{
-  
+
   height: 27vh;
   padding: auto;
 }
@@ -427,12 +427,6 @@ margin-top: 0px;
   padding: 25px;
   border-radius: 5px;
   clear: both;
-}
-
-
-.kontakt-wrapper{
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 
