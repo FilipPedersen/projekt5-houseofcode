@@ -783,6 +783,14 @@ margin-top: 0px;
     font-size: 40px;
     justify-content: flex-start;
     }
+    /*alt tekst og knapper på wep*/
+    .textogknapper{
+      display: flex;
+      flex-direction: column;
+      height: 60vh;
+      background-color: lightblue;
+      width: 500px;
+    }
   }
 /*MEDIA QUERIES SLUT*/
 
@@ -792,15 +800,6 @@ margin-top: 0px;
  justify-content: space-evenly;
  width: 100%;
  height: auto;
-}
-
-/*alt tekst og knapper på wep*/
-.textogknapper{
-  display: flex;
-  flex-direction: column;
-  height: 60vh;
-  background-color: lightblue;
-  width: 500px;
 }
 
   /*pattern web*/
