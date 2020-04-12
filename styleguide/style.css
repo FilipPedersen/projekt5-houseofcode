@@ -797,9 +797,8 @@ margin-top: 0px;
 /*alt tekst og knapper på wep*/
 .textogknapper{
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
-  height: auto;
+  height: 60vh;
   background-color: lightblue;
   width: 500px;
 }
@@ -807,19 +806,17 @@ margin-top: 0px;
   /*pattern web*/
 .pattern img{
   width: 200px;
-  height: auto;
+  background-color: pink;
 }
 
 .pattern-email img{
-  height: 100%;
-  width: 300px;
-  display: inline-block;
-  vertical-align: middle;
+  width: 275px;
+  display: block;
+
 }
 
-.pattern{
-  background-color: pink;
-}
+.pattern
+
 /*text web*/
 .headline{
   padding-left: 20px;
