@@ -5,7 +5,7 @@
   <meta name="viewport" content="width='device-width', initial-scale=1.0">
   <link rel="stylesheet" href="../styleguide/style.css">
   <script src="https://kit.fontawesome.com/211c7f6f1f.js" crossorigin="anonymous"></script>
-  <title>Document</title>
+  <title>Kontaktunderside til House of Code</title>
 </head>
 <body>
 
@@ -22,7 +22,8 @@
 
       <div class="menu1">
         <div class="logo1">
-          <img class="logoweb" src="../img/colorlogo.svg" alt="logofarve">
+          <a href="../allesider/index.html">
+            <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
         </div>
 
         <div class="nav1">
@@ -34,6 +35,7 @@
           </nav>
         </div>
       </div>
+
     </div>
 
 
@@ -42,7 +44,8 @@
     <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
     <div class="header">
       <div class="logo">
-        <img class="logomobil" src="../img/colorlogo.svg" alt="logofarve">
+        <a href="../allesider/index.html">
+          <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
       </div>
 
       <div class="menu">
@@ -56,6 +59,7 @@
           </div>
         </nav>
       </div>
+
     </div>
 
     <!--Hele dette er diven/parenten for alt
@@ -63,9 +67,9 @@
    illustrationer, og knapper-->
     <div class="content">
       <div class="text">
-        <h1>Hvad koster din app?{</h1>
+        <h1>Kontaktinformation{</h1>
         <p class="ledende-text"><span class="gul-text">Rådgivning</span>, <span class="lilla-text">design</span>, <br> <span class="blue-text">udvigling</span> & <span class="orange-text"> Vedligeholdelse</span></p>
-        <h1>}</h1>
+        <p class="alt7">}</p>
         <p class="ekstra-text">
           For at vi kan lave en hurtig og præcis vurdering af din app, bedes du svare på følgende (eller gennemgå følgende) og vi kommer i kontakt med dig.</p>
       </div>
@@ -77,11 +81,10 @@
       <!--Knap arealet til mobilversion-->
       <div class="knap-area">
         <a href="#" class="mobilknap">Kom i gang</a>
-          <a href="#" class="mobilknap">Læs mere om House Of Code</a>
-      </div
+        <a href="#" class="mobilknap">Læs mere om House Of Code</a>
+      </div>
       
-      >
-      <!--Processbar mobil-->
+      <!--Processbar Mobil-->
       <div class="processbar">
         PROCESSBAREN
       </div>
@@ -90,36 +93,44 @@
       <script src="../javascript/navbar.js"></script>
 
       <div class="content-container">
+
         <div class="textogknapper">
             <div class="headline">
-              <h1>Hvad koster din app?{</h1>
+              <h1>Kontaktinformation{</h1>
             </div>
 
-            <div class="starttekst">
-              <p><span class="gul-text">Rådgivning</span>, <span class="lilla-text">design</span>, <br> <span class="blue-text">udvigling</span> & <span class="orange-text"> Vedligeholdelse</span></p>
-            </div>
 
-            <div class="bracket">
-              <h1>}</h1>
-            </div>
-
-            <div class="vigtig-text">
-              For at vi kan lave en hurtig og præcis vurdering af din app, bedes du svare på følgende (eller gennemgå følgende) og vi kommer i kontakt med dig.
-            </div>  
-
-            <div class="knapper">
-              <a href="index.html" class="standardknap">Kom i gang</a>
-              <a href="#" class="standardknap">Læs mere om House Of Code</a>
-            </div>
+          <div class="starttekst">
+            <p>Vi kontakter dig inden for 24-timer i hverdagen, så vi sammen kan skabe den bedste app for dig!</p>
           </div>
 
+          <div class="bracket">
+            <h1>}</h1>
+          </div>
 
+          <div class="kontakt-wrapper">
+                   <div id="error_message"></div>
+
+                   <form id="myform" onsubmit="return validation()">
+                     <div class="input_field">
+                       <input type="text" placeholder="Navn" id="name">
+                     </div>
+                     <div class="input_field">
+                       <input type="text" placeholder="Telefonnummer" id="email">
+                     </div>
+                     <div class="input_field">
+                       <input type="text" placeholder="E-mail" id="nummer">
+                     </div>
+                     <div class="kon-btn">
+                       <input type="submit">
+                     </div>
+                   </form>
+          </div>
+
+        </div>
        <div class="pattern">
          <img src="../img/MobilemoneySvg.svg" alt="mobil">
        </div>
       </div>
-
-
-
 </body>
 </html>
