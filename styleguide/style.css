@@ -12,6 +12,7 @@ body {
   line-height: normal;
   font-family: "Roboto Mono", monospace;
   letter-spacing: -0.013em;
+  background-image: url("../img/bodyimg.svg");
 }
 
 /*FLEXBOX TIL HELE LAYOUTET*/
