@@ -150,7 +150,6 @@ body {
 .ledende-text{
   font-weight: 400;
   letter-spacing: -0.195px;
-  line-height: 34.5px;
 }
 
 /*TEXT STOP*/
@@ -170,11 +169,6 @@ body {
 /*Forside svg illustration*/
 .illustrationmobil{
   height: 27vh;
-  padding: auto;
-}
-
-.illustrationmail{
-  height: 15vh;
   padding: auto;
 }
 
@@ -445,8 +439,23 @@ margin-top: 0px;
   clear: both;
 }
 
+.kontakt-wrapper2{
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+  clear: both;
+}
+
 
 .kontakt-wrapper h3{
+  margin-bottom: 20px;
+  text-transform: uppercase;;
+  color: #515f6d;
+  font-size: 20px;
+}
+
+.kontakt-wrapper2 h3{
   margin-bottom: 20px;
   text-transform: uppercase;;
   color: #515f6d;
@@ -460,7 +469,19 @@ margin-top: 0px;
  font-size: 14px;
 }
 
+.kontakt-wrapper2 p{
+ margin-top: -15px;
+ margin-bottom: 10px;
+ margin-left: 6%;
+ font-size: 14px;
+}
+
+
 .kontakt-wrapper .input_field{
+  margin-bottom: 25px;
+}
+
+.kontakt-wrapper2 .input_field{
   margin-bottom: 25px;
 }
 
@@ -472,7 +493,20 @@ margin-top: 0px;
   border: 3px solid #a6bb75;
 }
 
+.kontakt-wrapper2 .input_field input[type="text"],
+.kontakt-wrapper2 textarea{
+  width: 90%;
+  padding: 15px;
+  border-color: #a6bb75;
+  border: 3px solid #a6bb75;
+}
+
 .kontakt-wrapper textarea{
+  height: 80px;
+  resize: none;
+}
+
+.kontakt-wrapper2 textarea{
   height: 80px;
   resize: none;
 }
@@ -491,7 +525,30 @@ margin-top: 0px;
   color: #ffffff;
 }
 
+.kontakt-wrapper2 .kon-btn input[type="submit"]{
+  border: none;
+  margin-top: 0px;
+  padding: 15px;
+  width: 100%;
+  background: #a6bb75;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+}
+
 .kontakt-wrapper #error_message{
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.kontakt-wrapper2 #error_message{
   margin-bottom: 20px;
   padding: 0px;
   background: #fe8b8e;
@@ -653,6 +710,9 @@ margin-top: 0px;
   .kontakt-wrapper{
     display: none;
   }
+  .illustrationmail{
+    display: none;
+  }
   }
 
 @media screen and (min-width: 800px) {
@@ -729,18 +789,14 @@ margin-top: 0px;
 .content-container{
   margin-top: 50px;
  display: flex;
- justify-content: space-around;
+ justify-content: space-evenly;
  width: 100%;
- height: 450px;
+ height: auto;
 }
 
 /*alt tekst og knapper på wep*/
 .textogknapper{
   display: flex;
-<<<<<<< HEAD
-  padding: 10px;
-=======
->>>>>>> 48d6da7507d4dd4de320257baf19151e50a0234e
   flex-direction: column;
   height: 60vh;
   background-color: lightblue;
@@ -773,8 +829,4 @@ margin-top: 0px;
 }
 .vigtig-text{
   padding-left: 20px;
-}
-
-.knapper{
-  margin-top: 160px;
 }
