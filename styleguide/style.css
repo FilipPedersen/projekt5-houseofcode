@@ -46,8 +46,8 @@ body {
 }
 
 .logomobil{
-  width: 10vh;
-  height: 10vh;
+  width: 8vh;
+  height: 8vh;
 }
 
 .menu1 .logoweb{
@@ -72,6 +72,7 @@ body {
 
 /*ALT INDHOLD (TEKSTEN, ILLUSTRATIONERNE, KNAPPERNE)*/
 .content {
+    margin-top: 35px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -100,6 +101,7 @@ body {
 /*brødtekst*/
 .ekstra-text{
   color: #404f5f;
+
 }
 
 /*væltet tuborg i startteksten*/
@@ -134,7 +136,6 @@ body {
 
 .ledende-text{
   font-weight: 400;
-  font-size: 23px;
   display: inline-block;
   letter-spacing: -0.195px;
   line-height: 34.5px;
@@ -179,6 +180,7 @@ body {
 
 /*MOBIL PROCESSBAR*/
 .processbar{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
