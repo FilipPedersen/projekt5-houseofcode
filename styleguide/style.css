@@ -102,21 +102,6 @@ body {
 }
 
 /*væltet tuborg i startteksten*/
-.text .alt7{
-box-sizing:border-box;
-color:rgb(81, 95, 109);
-display:block;
-font-size:22px;
-font-weight:400;
-height:28px;
-letter-spacing:-0.195px;
-line-height:28.6px;
-margin: 0;
-padding:0;
-text-size-adjust:100%;
-width:374px;
--webkit-font-smoothing:antialiased;
-}
 
 
 .text{
@@ -131,9 +116,8 @@ width:374px;
 }
 .text h1{
   box-sizing:border-box;
-  color:rgb(81, 95, 109);
   display:inline;
-  font-size:40px;
+  font-size:25px;
   font-weight:700;
   letter-spacing:-0.195px;
   line-height:60px;
@@ -172,8 +156,8 @@ width:374px;
 
 /*Forside svg illustration*/
 .illustrationmobil{
-  width: 55vh;
-  height: 55vh;
+  
+  height: 27vh;
   padding: auto;
 }
 
@@ -186,10 +170,10 @@ width:374px;
     justify-content: center;
     background-color: lightcoral;
     height: auto;
-
+    margin-top: 40px;
     padding-bottom: 10px;
     margin: 5px, auto;
-    width: 70%;
+    width: 60%;
 }
 
 /*MOBIL PROCESSBAR*/
@@ -378,8 +362,24 @@ ul.sidenav li a:hover:not(.active) {
  font-size: 15px;
  background-color: white;
  display: inline-block;
-
 }
+
+.mobilknap {
+  display: flex;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 20px;
+  padding: 5px;
+  height: auto;
+  border: 3px solid #a6bb75;
+  color: #a6bb75;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 13px;
+  background-color: white;
+  display: inline-block;
+ }
+
 
 .standard p{
   font-size: 12px;
@@ -732,16 +732,13 @@ margin-top: 0px;
   width: 200px;
   height: auto;
 }
-
 .pattern{
   background-color: pink;
 }
-
 /*text web*/
 .headline{
   padding-left: 20px;
 }
-
 .starttekst{
   padding-left: 60px;
 }
