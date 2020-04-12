@@ -102,21 +102,6 @@ body {
 }
 
 /*væltet tuborg i startteksten*/
-.text .alt7{
-box-sizing:border-box;
-color:rgb(81, 95, 109);
-display:block;
-font-size:22px;
-font-weight:400;
-height:28px;
-letter-spacing:-0.195px;
-line-height:28.6px;
-margin: 0;
-padding:0;
-text-size-adjust:100%;
-width:374px;
--webkit-font-smoothing:antialiased;
-}
 
 
 .text{
@@ -131,7 +116,6 @@ width:374px;
 }
 .text h1{
   box-sizing:border-box;
-  color:rgb(81, 95, 109);
   display:inline;
   font-size:40px;
   font-weight:700;
