@@ -70,8 +70,6 @@
         <h1>Kontaktinformation{</h1>
         <p class="ledende-text">Vi kontakter dig inden for 24-timer i hverdagen, så vi sammen kan skabe den bedste app for dig!</p>
         <p class="alt7">}</p>
-        <p class="ekstra-text">
-          For at vi kan lave en hurtig og præcis vurdering af din app, bedes du svare på følgende (eller gennemgå følgende) og vi kommer i kontakt med dig.</p>
       </div>
 
       <!--Div til illustrationerne-->
@@ -79,9 +77,23 @@
         <img class="illustrationmail" src="../img/mailsvg.svg" alt="mail ikon">
       </div>
       <!--Knap arealet til mobilversion-->
-      <div class="knap-area">
-        <a href="#" class="mobilknap">Kom i gang</a>
-        <a href="#" class="mobilknap">Læs mere om House Of Code</a>
+      <div class="kontakt-wrapper2">
+               <div id="error_message"></div>
+
+               <form id="myform" onsubmit="return validation()">
+                 <div class="input_field">
+                   <input type="text" placeholder="Navn" id="name">
+                 </div>
+                 <div class="input_field">
+                   <input type="text" placeholder="Telefonnummer" id="email">
+                 </div>
+                 <div class="input_field">
+                   <input type="text" placeholder="E-mail" id="nummer">
+                 </div>
+                 <div class="kon-btn">
+                   <input type="submit">
+                 </div>
+               </form>
       </div>
 
       <!--Processbar Mobil-->
