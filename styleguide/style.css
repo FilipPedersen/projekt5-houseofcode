@@ -799,11 +799,10 @@ margin-top: 0px;
  display: flex;
  justify-content: space-evenly;
  width: 100%;
- height: auto;
+ height: 50%;
 }
-
   /*pattern web*/
-.pattern img{
+  .pattern img{
   width: 200px;
   background-color: pink;
 }
