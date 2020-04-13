@@ -687,31 +687,29 @@ margin-top: 0px;
 /*Farver Slut */
 /*------------------STYLEGUIDE RELATERET Slut-------------------*/
 .content-container{
-  padding-top: 50px;
+  padding-top: 80px;
   height: 50%;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
-
   /*pattern web*/
   .pattern img{
-  width: 25vh;
-  background-color: pink;
+    width: 25vh;
+    height: 50vh;
 }
 
 .textogknapper{
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 35%;
   height: auto;
-  background-color: #566658;
 }
 
 .knapper{
-  padding-top: 20%;
+  padding-top: 25%;
+
 }
 
 .pattern-email img{
@@ -722,16 +720,23 @@ margin-top: 0px;
 /*text web*/
 .headline{
   padding-left: 20px;
+  font-size: 20px;
+  color: #404f5f;
 }
 .starttekst{
   padding-left: 60px;
 }
+.starttekst{
+  font-size: 30px;
+}
+
 .bracket{
   padding-left: 20px;
 }
 .vigtig-text{
   padding-left: 20px;
   padding-top: 40px;
+  max-width: 70%;
 }
 
 
