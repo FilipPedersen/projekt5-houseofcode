@@ -498,6 +498,12 @@ ul.sidenav li a:hover:not(.active) {
  display: inline-block;
 }
 
+.standardknap:hover {
+  background-color: #a6bb75;
+  transition: 0.5s ease;
+  color: white;
+}
+
 .blueknap {
   display: flex;
   margin-top: 5px;
@@ -512,6 +518,12 @@ ul.sidenav li a:hover:not(.active) {
   font-size: 15px;
   background-color: white;
   display: inline-block;
+ }
+
+ .blueknap:hover {
+   background-color: #7CA5B8;
+   transition: 0.5s ease;
+   color: white;
  }
 
 .mobilknap {
