@@ -319,8 +319,6 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
   display: flex;
   width: 15%;
   height: auto;
-  background-color: black;
-  color: white;
 }
 /*WEB LOGO*/
 .logo1{
