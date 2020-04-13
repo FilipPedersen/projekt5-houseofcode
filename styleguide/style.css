@@ -687,7 +687,7 @@ margin-top: 0px;
 /*Farver Slut */
 /*------------------STYLEGUIDE RELATERET Slut-------------------*/
 .content-container{
-  padding-top: 50px;
+  padding-top: 80px;
   height: 50%;
   width: 100%;
   display: flex;
@@ -696,7 +696,8 @@ margin-top: 0px;
 }
   /*pattern web*/
   .pattern img{
-  width: 25vh;
+    width: 25vh;
+    height: 50vh;
 }
 
 .textogknapper{
@@ -707,7 +708,7 @@ margin-top: 0px;
 }
 
 .knapper{
-  padding-top: 20%;
+  padding-top: 25%;
 
 }
 
@@ -719,6 +720,8 @@ margin-top: 0px;
 /*text web*/
 .headline{
   padding-left: 20px;
+  font-size: 20px;
+  color: #404f5f;
 }
 .starttekst{
   padding-left: 60px;
