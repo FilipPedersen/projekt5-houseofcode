@@ -694,12 +694,9 @@ margin-top: 0px;
   flex-direction: row;
   justify-content: space-around;
 }
-
-
   /*pattern web*/
   .pattern img{
   width: 25vh;
-  background-color: pink;
 }
 
 .textogknapper{
@@ -707,11 +704,11 @@ margin-top: 0px;
   flex-direction: column;
   width: 35%;
   height: auto;
-  background-color: #566658;
 }
 
 .knapper{
   padding-top: 20%;
+
 }
 
 .pattern-email img{
