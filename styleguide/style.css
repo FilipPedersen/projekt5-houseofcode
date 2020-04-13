@@ -482,6 +482,24 @@ ul.sidenav li a:hover:not(.active) {
   padding: 1px 20px;
 }
 
+.standardknaplogind{
+ display: flex;
+ margin-top: 5px;
+ margin-right: 15px;
+ margin-left: 20px;
+ padding: 15px;
+ padding-left: 25px;
+ padding-right: 25px;
+ height: auto;
+ border: 3px solid #a6bb75;
+ color: #a6bb75;
+ font-weight: bold;
+ text-decoration: none;
+ font-size: 15px;
+ background-color: white;
+ display: inline-block;
+}
+
 .standardknap {
  display: flex;
  margin-top: 5px;
@@ -510,6 +528,8 @@ ul.sidenav li a:hover:not(.active) {
   margin-right: 15px;
   margin-left: 20px;
   padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   height: auto;
   border: 3px solid #7CA5B8;
   color: #7CA5B8;
@@ -562,6 +582,12 @@ ul.sidenav li a:hover:not(.active) {
    display: inline-block;
   }
 
+  .mobilknap-undersider:hover {
+    background-color: #a6bb75;
+    transition: 0.5s ease;
+    color: white;
+  }
+
 .mobilknap-undersider-videre-knap {
   display: flex;
   margin-top: 5px;
@@ -577,6 +603,12 @@ ul.sidenav li a:hover:not(.active) {
   font-size: 12px;
   background-color: white;
   display: inline-block;
+}
+
+.mobilknap-undersider-videre-knap:hover {
+  background-color: rgba(124, 165, 184, 0.7);
+  transition: 0.5s ease;
+  color: white;
 }
 
 /*-------------------------------------------------------------------------------------------------------*/
