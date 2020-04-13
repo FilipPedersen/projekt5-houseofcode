@@ -5,19 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../styleguide/style.css">
   <script src="https://kit.fontawesome.com/211c7f6f1f.js" crossorigin="anonymous"></script>
-  <title>Hvad koster din app? - House of Code</title>
+  <title>Indtjenings-metode - House of Code</title>
 </head>
 <body>
 
   <!--eksta html kun til web-->
     <div class="web-processbaroglogo">
-
       <div class="blank">
-       
       </div>
 
       <div class="processbar1">
-        2 PROCESSBAREN
+        <img src="../img/processbar/9bar.svg" alt="Processbar">
       </div>
 
       <div class="menu1">
@@ -35,6 +33,7 @@
           </nav>
         </div>
       </div>
+
     </div>
 
 
@@ -51,79 +50,82 @@
         <nav>
           <ul class="nav-links2">
             <li><a href="#"><i class="fas fa-times"></i>Luk</a></li>
-            <li><a href="../allesider/index.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
+            <li><a href="#"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
           </ul>
           <div class="burgermenu">
             <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
           </div>
         </nav>
       </div>
+
     </div>
 
-    <!--MOBIL Hele dette er diven/parenten for alt
+    <!--Hele dette er diven/parenten for alt
    content altså text,
    illustrationer, og knapper-->
-    <div class="content">
-      <div class="text">
-        <h1>Hvad koster din app? <span> {</span></h1>
-        <div class="ledende-text"><p><span class="gul-text">Rådgivning</span>, <span class="lilla-text">design</span>, <br> <span class="blue-text">udvigling</span> & <span class="orange-text"> Vedligeholdelse</span></p></div>
-        <p>}</p>
+   <div class="content">
+ <div class="text-undersider">
+   <h1>Dit Koncept <span> {</span></h1>
+   <p class="ledende-text-undersider">Har du allerede et koncept som du gerne vil have vi arbejder videre med? Skriv det her:</p>
+   <p>}</p>
 
-      </div>
+ </div>
 
-      <!--MOBIL Dette er extratksten på forsiden-->
-      <div class="startertekst">
-        <p class="ekstra-text">
-          For at vi kan lave en hurtig og præcis vurdering af din app, bedes du svare på følgende (eller gennemgå følgende) og vi kommer i kontakt med dig.
-        </p>
-      </div>
+ <!--MOBIL Dette er extratksten på forsiden-->
+ <div class="kontakt-wrapper2">
+          <div id="error_message"></div>
 
-      <!--Div til illustrationerne MOBIL-->
-      <!--<div class="illustration">
-        <img class="illustrationmobil" src="../img/MobilemoneySvg.svg" alt="mobilemoney">
-      </div>-->
+          <form id="myform" onsubmit="return validation()">
+            <div class="input_field">
+              <textarea id="besked" placeholder="Skriv dit koncept her"></textarea>
+            </div>
+            <div class="kon-btn">
+              <input type="submit">
+            </div>
+          </form>
+  </div>
+  <div class="processbar">
+          <img src="../img/processbar/9bar.svg" alt="Processbar2">
+  </div>
+</div>
 
-      <!--Knap arealet til mobilversion-->
-      <div class="knap-area">
-        <a href="../allesider/kontakt.html" class="mobilknap">Kom i gang</a>
-        <a href="#" class="mobilknap">Læs mere om House Of Code</a>
-      </div>
-      </div>
-
+      <!--JAVASCRIPT-->
       <script src="../javascript/navbar.js"></script>
 
-        <!--WEB RELATERET-->
+
+       <!--STARTEN PÅ ALT CONTENT TIL HTML--> 
       <div class="content-container">
+
         <div class="textogknapper">
-            <div class="headline">
-              <h1>Hvad koster din app?{</h1>
-            </div>
-
-            <div class="starttekst">
-              <p><span class="gul-text">Rådgivning</span>, <span class="lilla-text">design</span>, <br> <span class="blue-text">udvigling</span> & <span class="orange-text"> Vedligeholdelse</span></p>
-            </div>
-
-            <div class="bracket">
-              <h1>}</h1>
-            </div>
-
-            <div class="vigtig-text">
-              For at vi kan lave en hurtig og præcis vurdering af din app, bedes du svare på følgende (eller gennemgå følgende) og vi kommer i kontakt med dig.
-            </div>
-
-            <div class="knapper">
-              <a href="../allesider/kontakt.html" class="standardknap">Kom i gang</a>
-              <a href="#" class="standardknap">Læs mere om House Of Code</a>
-            </div>
+          <div class="headline">
+            <h1>Indhold   {</h1>
           </div>
+          <div class="vigtig-text">
+            Hvilke former for indhold 
+            skal di App indeholde?
+            (Flere kan vælges)
 
+            <p>
+            </p>
+          </div>
+          <div class="bracket">
+            <h1>}</h1>
+         </div>
+         <div class="knapper">
+          <a href="../allesider/done.html" class="standardknap">Kontrol-<br>panel</a>
+          <a href="../allesider/done.html" class="standardknap">Søgefelt</a>
+          <a href="../allesider/done.html" class="standardknap">Kontorer</a>
+          <a href="../allesider/done.html" class="standardknap">Notifi-<br>kationer</a>
+          <a href="../allesider/done.html" class="standardknap">Chatbox</a>
+          <a href="../allesider/done.html" class="standardknap">Andet</a>
+          <a href="../allesider/done.html" class="blueknap">Ved ikke</a>
+        </div>
 
+        </div>
        <div class="pattern">
-         <img src="../img/MobilemoneySvg.svg" alt="mobil">
+         <img src="../img/searchSVG.svg" alt="en mobil med et spørgsmålstegn">
        </div>
       </div>
-
-
-
 </body>
 </html>
+
