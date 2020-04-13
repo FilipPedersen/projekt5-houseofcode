@@ -247,6 +247,18 @@ h1 span {
   height: 100%;
 }
 
+.illustration-box-4 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.illustration-box-5 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .illustration-box-1 img {
 height: 70%;
 }
@@ -257,6 +269,14 @@ height: 100%;
 
 .illustration-box-3 img {
 height: 85%;
+}
+
+.illustration-box-4 img {
+height: 40%;
+}
+
+.illustration-box-5 img {
+height: 70%;
 }
 
 /*
@@ -285,15 +305,15 @@ height: 85%;
 
 /*knap area for alle undersider mobil*/
 .knap-area-undersider{
-  margin-top: 10%;
+  margin-top: 3%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   background-color: none;
   height: auto;
-  width: 75%;
+  width: 96%;
 }
 
 .svar-knapper {
