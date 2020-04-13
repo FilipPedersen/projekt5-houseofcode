@@ -285,11 +285,11 @@ height: 85%;
 
 /*knap area for alle undersider mobil*/
 .knap-area-undersider{
-  margin-top: 5%;
+  margin-top: 10%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: none;
   height: auto;
@@ -480,24 +480,6 @@ ul.sidenav li a:hover:not(.active) {
 	align-content: stretch;
   margin-left: 25%;
   padding: 1px 20px;
-}
-
-.standardknaplogind{
- display: flex;
- margin-top: 5px;
- margin-right: 15px;
- margin-left: 20px;
- padding: 15px;
- padding-left: 25px;
- padding-right: 25px;
- height: auto;
- border: 3px solid #a6bb75;
- color: #a6bb75;
- font-weight: bold;
- text-decoration: none;
- font-size: 15px;
- background-color: white;
- display: inline-block;
 }
 
 .standardknap {
