@@ -163,6 +163,58 @@ h1 span {
 
 }
 
+/*------------------Start headline undersider-------------------*/
+.text-undersider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: none;
+    height: auto;
+    width: 70%;
+    text-align: start;
+}
+
+.text-undersider p{
+    color: #515f6d;
+    width: 100%;
+    background-color: none;
+    text-align: start;
+    font-size: 15px;
+}
+
+.text-undersider h1{
+  font-size: 20px;
+  width: 100%;
+  color: #515f6d;
+  font-weight:700;
+  letter-spacing:-0.195px;
+  line-height: 1.5;
+  background-color: none;
+  text-align: start;
+}
+
+.ledende-text-undersider{
+  font-weight: 400;
+  letter-spacing: -0.195px;
+  padding-left: 40px;
+}
+
+.ledende-text-undersider p{
+  width: 90%;
+  font-weight: 400;
+  letter-spacing: -0.195px;
+  padding-left: 25px;
+}
+
+.text-undersider h1 span {
+  color: #515f6d;
+  font-size: 20px;
+  font-weight:400;
+}
+/*------------------Slut headline undersider-------------------*/
+
 /*TEXT STOP*/
 
 .illustration{
@@ -792,7 +844,7 @@ margin-top: 0px;
       width: 100%;
       height: 19.5vh;
     }
-    
+
     .pattern{
       display: block;
     }
@@ -845,6 +897,3 @@ margin-top: 0px;
     }
   }
 /*MEDIA QUERIES SLUT*/
-
-
-
