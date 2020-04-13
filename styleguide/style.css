@@ -498,6 +498,22 @@ ul.sidenav li a:hover:not(.active) {
  display: inline-block;
 }
 
+.blueknap {
+  display: flex;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 20px;
+  padding: 15px;
+  height: auto;
+  border: 3px solid #7CA5B8;
+  color: #7CA5B8;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: white;
+  display: inline-block;
+ }
+
 .mobilknap {
   display: flex;
   margin-top: 5px;
