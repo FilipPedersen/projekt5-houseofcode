@@ -705,7 +705,7 @@ margin-top: 0px;
 .textogknapper{
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 25%;
   height: auto;
   background-color: #566658;
 }
@@ -715,11 +715,9 @@ margin-top: 0px;
 }
 
 .pattern-email img{
-  width: 20vh;
+  width: 25vh;
   display: block;
 }
-
-
 
 /*text web*/
 .headline{
@@ -789,9 +787,7 @@ margin-top: 0px;
       width: 100%;
       height: 19.5vh;
     }
-    .content-container{
-      display: block;
-    }
+    
     .pattern{
       display: block;
     }
