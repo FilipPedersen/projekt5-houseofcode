@@ -726,6 +726,10 @@ margin-top: 0px;
 .starttekst{
   padding-left: 60px;
 }
+.starttekst{
+  font-size: 30px;
+}
+
 .bracket{
   padding-left: 20px;
 }
