@@ -79,7 +79,7 @@ body {
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-    width: auto;
+    width: 100%;
     height: 80vh;
     margin-top: 5vh;
 }
@@ -218,24 +218,50 @@ h1 span {
 /*TEXT STOP*/
 
 .illustration{
-    margin-top: 0px;
-    padding: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    width: 100%;
-    height: auto;
-    background-color: lightgrey;
+  margin-top: 0px;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 30vh;
+  height: 30vh;
 }
 
 /*Forside svg illustration*/
-.illustrationmobil{
-  height: 27vh;
-  padding: auto;
+.illustration-box-1 {
+  display: flex;
+  align-items: flex-end;
+  height:  100%;
+  width: 39%;
 }
 
-/*knap area er til mobil verion layoutet*/
+.illustration-box-2 {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.illustration-box-1 img {
+height: 70%;
+}
+
+.illustration-box-2 img {
+height: 100%;
+}
+
+/*
+.illustrationmobil{
+  padding: auto;
+  background-color: blue;
+}
+
+.illustrationmobil2{
+  padding: auto;
+}
+*/
+
+/*knap area er til mobil verion af index*/
 .knap-area{
   margin-top: 2%;
   display: flex;
@@ -248,6 +274,19 @@ h1 span {
   width: 95%;
 }
 
+/*knap area for alle undersider mobil*/
+.knap-area-undersider{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: none;
+  height: auto;
+  width: 80%;
+}
+
 /*MOBIL PROCESSBAR*/
 .processbar{
     margin-top: 30px;
@@ -256,10 +295,12 @@ h1 span {
     align-items: center;
     width: 100%;
     height: 50px;
-    color: ivory;
-    background-color: lightslategray;
+    background-color: none;
 }
 
+.processbar img {
+  width: 90%;
+}
 
 /*WEB RELATERET CSS*/
 .web-processbaroglogo{
@@ -452,6 +493,26 @@ ul.sidenav li a:hover:not(.active) {
   background-color: white;
   display: inline-block;
  }
+
+
+/*Oliver har tilføjet den  her til mobil-undersider.
+  Den skal også med ind i vores style guide (html version)*/
+ .mobilknap-undersider {
+   display: flex;
+   margin-top: 5px;
+   margin-right: 5px;
+   margin-bottom: 10px;
+   margin-left: 5px;
+   padding: 15px;
+   height: auto;
+   border: 3px solid #a6bb75;
+   color: #a6bb75;
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 12px;
+   background-color: white;
+   display: inline-block;
+  }
 
 
 .standard p{
