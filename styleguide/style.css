@@ -265,7 +265,6 @@ h1 span {
 .web-processbaroglogo{
     display: flex;
     flex-direction: row;
-    background-color: lime;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -279,7 +278,8 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
   display: flex;
   width: 15%;
   height: auto;
-  background-color: orange;
+  background-color: black;
+  color: white;
 }
 /*WEB LOGO*/
 .logo1{
@@ -303,7 +303,7 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
     align-items: flex-end;
     width: 15%;
     height: 100%;
-    background-color: mediumspringgreen;
+    
 }
 
 /* WEB NAV BAR KODE */
@@ -372,11 +372,17 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
 /*PROCESSBAR WEB*/
 .processbar1{
     display: flex;
+    justify-content: center;
     width: 60%;
-    height: auto;
-    background-color: navy;
+    height: auto;  
     color: ivory;
 }
+.processbar1 img{
+  width: 85vh;
+  height: 25zvh;
+  
+}
+
 
 /*------------------STYLEGUIDE RELATERET START-------------------*/
 
@@ -761,11 +767,9 @@ margin-top: 0px;
 
 .knapper{
   padding-top: 25%;
-
 }
 
 .pattern-email img{
-
   width: 40vh;
   height: 40vh;
   display: block;
@@ -841,7 +845,6 @@ margin-top: 0px;
     .web-processbaroglogo{
       display: flex;
       flex-direction: row;
-      background-color: lime;
       justify-content: space-between;
       align-items: center;
       width: 100%;
