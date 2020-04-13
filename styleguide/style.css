@@ -765,7 +765,9 @@ margin-top: 0px;
 }
 
 .pattern-email img{
-  width: 25vh;
+
+  width: 40vh;
+  height: 40vh;
   display: block;
 }
 
@@ -834,6 +836,7 @@ margin-top: 0px;
     body {
       margin-bottom: 0.5vh;
       height: 100%;
+      overflow: hidden;
     }
     .web-processbaroglogo{
       display: flex;
