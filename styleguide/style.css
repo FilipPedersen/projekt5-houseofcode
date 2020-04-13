@@ -705,7 +705,7 @@ margin-top: 0px;
 .textogknapper{
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 35%;
   height: auto;
   background-color: #566658;
 }
@@ -732,6 +732,7 @@ margin-top: 0px;
 .vigtig-text{
   padding-left: 20px;
   padding-top: 40px;
+  max-width: 70%;
 }
 
 
