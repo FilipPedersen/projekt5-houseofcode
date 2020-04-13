@@ -76,7 +76,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
     width: auto;
@@ -565,12 +565,12 @@ margin-top: 0px;
 }
 
 .kontakt-wrapper textarea{
-  height: 80px;
+  height: 25vh;
   resize: none;
 }
 
 .kontakt-wrapper2 textarea{
-  height: 80px;
+  height: 25vh;
   resize: none;
 }
 
