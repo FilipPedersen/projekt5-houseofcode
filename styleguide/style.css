@@ -509,7 +509,7 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .standardknap {
-
+    cursor: pointer;
     display: flex;
     margin-top: 5px;
     margin-right: 15px;
@@ -556,10 +556,12 @@ ul.sidenav li a:hover:not(.active) {
 
 
 .blueknap {
+  cursor: pointer;
   display: flex;
   margin-top: 5px;
   margin-right: 15px;
   margin-left: 20px;
+  margin-top: 20px;
   padding: 15px;
   width: 150px;
   height: auto;
@@ -663,6 +665,8 @@ ul.sidenav li a:hover:not(.active) {
   display: inline-block;
   text-align: center;
 }
+
+
 
 #myDIV {
 margin-top: 2.5%;
@@ -1015,6 +1019,38 @@ margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.patternkey{
+  padding-top: 10%;
+  width: 30%;
+}
+
+
+.knapper-flexcontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+  .knap-container{
+    display: flex;
+    justify-content: center;
+  }
+
+ .knapper2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .flex{
+   display: flex;
+   margin-top: 20px;
+   justify-content: start;
+ }
+
+ .flextekst{
+   width: 100%;
+   background-color: red;
+ }
 
   /*pattern web*/
   .pattern img{
