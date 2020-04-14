@@ -666,16 +666,22 @@ ul.sidenav li a:hover:not(.active) {
   text-align: center;
 }
 
-
-
 #myDIV {
-margin-top: 2.5%;
+margin-top: 2%;
 display: none;
 }
 
 #myDIV2 {
-margin-top: 2.5%;
+margin-top: 2%;
 display: block;
+}
+
+#myDIV3 {
+margin-top: 2%;
+display: none;
+top: 0px;
+bottom: 0px;
+width: 70%;
 }
 
 
@@ -714,7 +720,6 @@ select {
   color: white;
   cursor: pointer;
   font-weight: bold;
-
 }
 
 /* Transition */
@@ -722,6 +727,52 @@ select {
   color: rgba(124, 165, 184, 1);
 }
 
+/*-----------------------------------------------Textbox Mobil--------------------------------------------------------*/
+
+.kontakt-wrapper3{
+  flex: 1;
+  border-radius: 5px;
+  clear: both;
+}
+
+.kontakt-wrapper3 h3{
+  margin-bottom: 20px;
+  text-transform: uppercase;;
+  color: #515f6d;
+  font-size: 20px;
+}
+
+.kontakt-wrapper3 p{
+ margin-top: -15px;
+ margin-bottom: 10px;
+ margin-left: 6%;
+ font-size: 14px;
+}
+
+.kontakt-wrapper3 .input_field input[type="text"],
+.kontakt-wrapper3 textarea{
+  width: 33vh;
+  padding: 15px;
+  border-color: #a6bb75;
+  border: 3px solid #a6bb75;
+}
+
+.kontakt-wrapper3 textarea{
+  height: 25vh;
+  resize: none;
+}
+
+.kontakt-wrapper3 #error_message{
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+#andet {
+  font-family: 'Roboto Mono', monospace;
+ }
 
 /*-------------------------------------------------------------------------------------------------------*/
 
