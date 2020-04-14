@@ -513,7 +513,8 @@ ul.sidenav li a:hover:not(.active) {
     display: flex;
     margin-top: 5px;
     margin-right: 15px;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-bottom: 5px;
     padding: 15px;
     width: 150px;
     text-align: center;
@@ -609,6 +610,7 @@ ul.sidenav li a:hover:not(.active) {
   margin-left: 5px;
   padding: 15px;
   height: auto;
+  width: 60px;
   border: 3px solid rgba(124, 165, 184, 0.7);
   color: rgba(124, 165, 184, 0.7);
   font-weight: bold;
@@ -623,6 +625,80 @@ ul.sidenav li a:hover:not(.active) {
   transition: 0.5s ease;
   color: white;
 }
+
+.mobilknap-undersider-videre-knap-blue {
+  display: flex;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  padding: 15px;
+  height: auto;
+  width: 60px;
+  border: 3px solid rgba(124, 165, 184, 1);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  background-color: rgba(124, 165, 184, 1);
+  display: inline-block;
+  text-align: center;
+}
+
+#myDIV {
+margin-top: 2.5%;
+display: none;
+}
+
+#myDIV2 {
+margin-top: 2.5%;
+display: block;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+option {
+    font-weight: bold;
+}
+
+select {
+  padding: 0 0.5em;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  background:  rgba(165, 186, 117, 1);
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 70%;
+  height: 2.5em;
+  line-height: 3;
+  overflow: hidden;
+
+}
+
+select {
+  flex: 1;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+/* Transition */
+.select:hover::after {
+  color: rgba(124, 165, 184, 1);
+}
+
 
 /*-------------------------------------------------------------------------------------------------------*/
 
@@ -935,13 +1011,13 @@ margin-top: 0px;
 .textogknapper{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 
 .knapper{
 
-  padding-top: 25%;
+    padding-top: 5%;
 }
 
 .pattern-email img{
@@ -976,6 +1052,14 @@ margin-top: 0px;
 
 
 /*WEB VERSION...CSS Media Queries*/
+@media screen and (max-width: 1300px) {
+  .content-container{
+   width: 100%;
+  }
+  .textogknapper {
+    width: 60%;
+  }
+}
 
 @media screen and (max-width: 800px) {
    .web-processbaroglogo{

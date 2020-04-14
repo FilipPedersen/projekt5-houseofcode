@@ -14,7 +14,7 @@
     <div class="web-processbaroglogo">
 
       <div class="blank">
-        
+
       </div>
 
       <div class="processbar1">
@@ -81,19 +81,29 @@
   </div>
 
   <div class="knap-area-undersider">
-    <div>
-      <a href="../allesider/app-kategori.html" class="mobilknap-undersider">Native</a>
-      <a href="../allesider/app-kategori.html" class="mobilknap-undersider">Hybrid</a>
-      <a href="../allesider/app-kategori.html" class="mobilknap-undersider">Web</a>
+    <div class="select">
+      <select onchange="changeFunc();" name="slct" id="slct">
+        <option selected disabled>Vælg en development type</option>
+        <option value="1">Native</option>
+        <option value="2">Hybrid</option>
+        <option value="3">Web</option>
+      </select>
     </div>
-    <div>
-      <a href="../allesider/app-kategori.html" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+
+    <div id="myDIV">
+      <a href="#" class="mobilknap-undersider-videre-knap">Tilbage</a>
+      <a href="#" class="mobilknap-undersider-videre-knap-blue">Næste</a>
     </div>
-  </div>
+    <div id="myDIV2">
+      <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+    </div>
+</div>
+
+      <script src="../javascript/slct.js"></script>
 
 
  <div class="processbar">
-         <img src="../img/processbar/3bar.svg" alt="Processbar3">
+         <img src="../img/processbar/4bar.svg" alt="Processbar4">
  </div>
 
       <!--Processbar Mobil-->
@@ -111,7 +121,7 @@
             <h1>Development type   {</h1>
           </div>
           <div class="vigtig-text">
-            Hvilken development type skal 
+            Hvilken development type skal
             din App være på?
             <p>
             </p>
