@@ -925,6 +925,11 @@ margin-top: 0px;
     width: 25vh;
     height: 50vh;
 }
+.pattern-pc img{
+  margin-top: 80px;
+  width: 40vh;
+  height: 50vh;
+}
 
 .textogknapper{
   display: flex;
