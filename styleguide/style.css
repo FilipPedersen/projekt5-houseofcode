@@ -509,7 +509,7 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .standardknap {
-
+    cursor: pointer;
     display: flex;
     margin-top: 5px;
     margin-right: 15px;
@@ -537,6 +537,7 @@ ul.sidenav li a:hover:not(.active) {
 
 
 .blueknap {
+  cursor: pointer;
   display: flex;
   margin-top: 5px;
   margin-right: 15px;

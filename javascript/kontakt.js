@@ -24,7 +24,7 @@ function validation(){
     error_message.innerHTML = text;
     return false;
   }
-  
+
   alert("Din besked blev sendt!")
   return true;
 }
