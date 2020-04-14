@@ -548,6 +548,11 @@ ul.sidenav li a:hover:not(.active) {
        display: inline-block;
       }
 
+#langknap{
+  width: 250px;
+  cursor: pointer;
+}
+
 .standardknap .standardknap2:hover {
   background-color: #7CA5B8;
   transition: 0.5s ease;
