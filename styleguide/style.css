@@ -503,19 +503,23 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .standardknap {
- display: flex;
- margin-top: 5px;
- margin-right: 15px;
- margin-left: 20px;
- padding: 15px;
- height: auto;
- border: 3px solid #a6bb75;
- color: #a6bb75;
- font-weight: bold;
- text-decoration: none;
- font-size: 15px;
- background-color: white;
- display: inline-block;
+ 
+    display: flex;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 20px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    height: auto;
+    border: 3px solid #a6bb75;
+    color: #a6bb75;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: white;
+    display: inline-block;
+   }
 }
 
 .standardknap:hover {
@@ -530,15 +534,15 @@ ul.sidenav li a:hover:not(.active) {
   margin-right: 15px;
   margin-left: 20px;
   padding: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
+  width: 150px;
   height: auto;
   border: 3px solid #7CA5B8;
   color: #7CA5B8;
   font-weight: bold;
   text-decoration: none;
   font-size: 15px;
-  background-color: white;
+  text-align: center;
+  background-color: #ffffff;
   display: inline-block;
  }
 
@@ -923,6 +927,7 @@ margin-top: 0px;
 }
 
 .knapper{
+  
   padding-top: 25%;
 }
 
