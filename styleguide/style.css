@@ -920,10 +920,16 @@ margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
+
   /*pattern web*/
   .pattern img{
     width: 25vh;
     height: 50vh;
+}
+.pattern-pc img{
+  margin-top: 80px;
+  width: 40vh;
+  height: 50vh;
 }
 
 .textogknapper{
