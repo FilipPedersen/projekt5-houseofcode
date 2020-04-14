@@ -513,7 +513,8 @@ ul.sidenav li a:hover:not(.active) {
     display: flex;
     margin-top: 5px;
     margin-right: 15px;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-bottom: 5px;
     padding: 15px;
     width: 150px;
     text-align: center;
@@ -935,7 +936,7 @@ margin-top: 0px;
 .textogknapper{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 
