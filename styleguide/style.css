@@ -648,11 +648,7 @@ ul.sidenav li a:hover:not(.active) {
    display: inline-block;
   }
 
-  .mobilknap-undersider:hover {
-    background-color: #a6bb75;
-    transition: 0.5s ease;
-    color: white;
-  }
+
 
 .mobilknap-undersider-videre-knap {
   display: flex;
@@ -672,11 +668,7 @@ ul.sidenav li a:hover:not(.active) {
   display: inline-block;
 }
 
-.mobilknap-undersider-videre-knap:hover {
-  background-color: rgba(124, 165, 184, 0.7);
-  transition: 0.5s ease;
-  color: white;
-}
+
 
 .mobilknap-undersider-videre-knap-blue {
   display: flex;
