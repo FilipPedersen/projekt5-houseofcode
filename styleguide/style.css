@@ -542,6 +542,7 @@ ul.sidenav li a:hover:not(.active) {
   margin-top: 5px;
   margin-right: 15px;
   margin-left: 20px;
+  margin-top: 20px;
   padding: 15px;
   width: 150px;
   height: auto;
@@ -999,6 +1000,15 @@ margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
+=======
+
+.patternkey{
+  padding-top: 10%;
+  width: 30%;
+}
+
+>>>>>>> 384c7d964890646c22b17ee9fe649539a281c7f2
 
 .knapper-flexcontainer{
   display: flex;
@@ -1014,10 +1024,10 @@ margin-top: 0px;
    display: flex;
    align-items: center;
    justify-content: center;
-
  }
  .flex{
    display: flex;
+   margin-top: 20px;
    justify-content: start;
  }
 
