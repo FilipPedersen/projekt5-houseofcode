@@ -516,7 +516,7 @@ ul.sidenav li a:hover:not(.active) {
     margin-left: 15px;
     margin-bottom: 5px;
     padding: 15px;
-    width: 150px;
+    width: 130px;
     text-align: center;
     height: auto;
     border: 3px solid #a6bb75;
@@ -544,7 +544,7 @@ ul.sidenav li a:hover:not(.active) {
   margin-left: 20px;
   margin-top: 20px;
   padding: 15px;
-  width: 150px;
+  width: 130px;
   height: auto;
   border: 3px solid #7CA5B8;
   color: #7CA5B8;
