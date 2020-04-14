@@ -503,7 +503,6 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .standardknap {
- 
     display: flex;
     margin-top: 5px;
     margin-right: 15px;
@@ -523,10 +522,11 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .standardknap:hover {
-  background-color: #a6bb75;
+  background-color: #7CA5B8;
   transition: 0.5s ease;
   color: white;
 }
+
 
 .blueknap {
   display: flex;
