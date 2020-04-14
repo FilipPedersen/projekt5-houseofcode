@@ -9,10 +9,11 @@ $(document).ready(function(){
                 .css({'background-image': 'url('+newBg+')'})//ændre css bagrrund billede til new bg
                 .animate({opacity: 1}) //sætter opacity til 1 igen
                 .css({'background-image': 'url('+oldBg+')'}) //ændre css bagrrund billede til old bg
-                .load("app-kategori.html"); //loader den givne side husk at brug live server
+                .load("logind.html"); //loader den givne side husk at brug live server
 
         });
     });
+
 
     $(".knapper2").click(function(){ //tjekker når der klikkes på den knap med klassen standardknap
       $('body') //tager fat i bodyen af den givne html side
@@ -21,10 +22,13 @@ $(document).ready(function(){
                   .css({'background-image': 'url('+newBg+')'})//ændre css bagrrund billede til new bg
                   .animate({opacity: 1}) //sætter opacity til 1 igen
                   .css({'background-image': 'url('+oldBg+')'}) //ændre css bagrrund billede til old bg
-                  .load("app-kategori.html"); //loader den givne side husk at brug live server
+                  .load("logind.html"); //loader den givne side husk at brug live server
 
           });
       });
+
+
+
 
 
 
