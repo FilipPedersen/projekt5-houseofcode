@@ -920,11 +920,12 @@ margin-top: 0px;
 .textogknapper{
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 40%;
   height: auto;
 }
 
 .knapper{
+  
   padding-top: 25%;
 }
 
