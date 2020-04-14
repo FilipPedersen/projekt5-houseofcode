@@ -14,7 +14,7 @@
     <div class="web-processbaroglogo">
 
       <div class="blank">
-        
+
       </div>
 
       <div class="processbar1">
@@ -81,18 +81,28 @@
   </div>
 
   <div class="knap-area-undersider">
-    <div>
-      <a href="#" class="mobilknap-undersider">IOS</a>
-      <a href="#" class="mobilknap-undersider">Begge</a>
-      <a href="#" class="mobilknap-undersider">Android</a>
+    <div class="select">
+      <select onchange="changeFunc();" name="slct" id="slct">
+        <option selected disabled>Vælg en platform</option>
+        <option value="1">ISO</option>
+        <option value="2">Begge</option>
+        <option value="3">Android</option>
+      </select>
     </div>
-    <div>
+
+    <div id="myDIV">
+      <a href="#" class="mobilknap-undersider-videre-knap">Tilbage</a>
+      <a href="#" class="mobilknap-undersider-videre-knap-blue">Næste</a>
+    </div>
+    <div id="myDIV2">
       <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
     </div>
 </div>
 
+      <script src="../javascript/slct.js"></script>
+
  <div class="processbar">
-         <img src="../img/processbar/4bar.svg" alt="Processbar4">
+         <img src="../img/processbar/3bar.svg" alt="Processbar3">
  </div>
 
       <!--Processbar Mobil-->
@@ -110,7 +120,7 @@
             <h1>Platform   {</h1>
           </div>
           <div class="vigtig-text">
-            Hvilken platform skal 
+            Hvilken platform skal
             din App være på?
             <p>
             </p>
