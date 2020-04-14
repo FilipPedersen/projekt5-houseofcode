@@ -50,6 +50,8 @@ body {
 .logomobil{
   width: 8vh;
   height: 8vh;
+  margin-top: 30px;
+  margin-right: 35px;
 }
 
 .menu1 .logoweb{
@@ -435,6 +437,10 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
     .nav-links2 i{
       margin-right: 30px;
     }
+    .logomobil{
+      margin-top: 0;
+      margin-right: 0;
+    }
 }
 
 .nav-active{
@@ -503,7 +509,7 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 .standardknap {
- 
+
     display: flex;
     margin-top: 5px;
     margin-right: 15px;
@@ -927,7 +933,7 @@ margin-top: 0px;
 }
 
 .knapper{
-  
+
   padding-top: 25%;
 }
 
