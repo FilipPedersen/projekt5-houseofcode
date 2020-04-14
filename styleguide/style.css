@@ -645,6 +645,8 @@ ul.sidenav li a:hover:not(.active) {
   text-align: center;
 }
 
+
+
 #myDIV {
 margin-top: 2.5%;
 display: none;
@@ -989,13 +991,44 @@ margin-top: 0px;
 .content-container{
   padding-top: 80px;
   height: 50%;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
 }
+/*
+pattern{
+  width: 50%;
+}
+*/
+
+.knapper-flexcontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+  .knap-container{
+    display: flex;
+    justify-content: center;
+  }
+
+ .knapper2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+ }
+ .flex{
+   display: flex;
+   justify-content: start;
+ }
+
+ .flextekst{
+   width: 100%;
+   background-color: red;
+ }
 
   /*pattern web*/
   .pattern img{
