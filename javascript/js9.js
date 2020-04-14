@@ -9,7 +9,7 @@ $(document).ready(function(){
                 .css({'background-image': 'url('+newBg+')'})//ændre css bagrrund billede til new bg
                 .animate({opacity: 1}) //sætter opacity til 1 igen
                 .css({'background-image': 'url('+oldBg+')'}) //ændre css bagrrund billede til old bg
-                .load("integrer-hjemmeside.html"); //loader den givne side husk at brug live server
+                .load("done.html"); //loader den givne side husk at brug live server
 
         });
     });
