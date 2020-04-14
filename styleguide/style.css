@@ -970,6 +970,14 @@ margin-top: 0px;
 
 
 /*WEB VERSION...CSS Media Queries*/
+@media screen and (max-width: 1300px) {
+  .content-container{
+   width: 100%;
+  }
+  .textogknapper {
+    width: 60%;
+  }
+}
 
 @media screen and (max-width: 800px) {
    .web-processbaroglogo{
