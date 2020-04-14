@@ -527,9 +527,28 @@ ul.sidenav li a:hover:not(.active) {
     background-color: white;
     display: inline-block;
    }
-}
 
-.standardknap:hover {
+   .standardknap2 {
+
+       display: flex;
+       margin-top: 5px;
+       margin-right: 15px;
+       margin-left: 15px;
+       margin-bottom: 5px;
+       padding: 15px;
+       width: 150px;
+       text-align: center;
+       height: auto;
+       border: 3px solid #a6bb75;
+       color: #a6bb75;
+       font-weight: bold;
+       text-decoration: none;
+       font-size: 15px;
+       background-color: white;
+       display: inline-block;
+      }
+
+.standardknap .standardknap2:hover {
   background-color: #7CA5B8;
   transition: 0.5s ease;
   color: white;

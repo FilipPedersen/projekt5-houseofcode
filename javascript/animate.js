@@ -1,12 +1,12 @@
 $(document).ready(function() {
   console.log("ready!");
 
-  $(".standardknap").click(function() {
+  $(".kon-btn").click(function() {
     console.log("billede2");
-    $(".illustrationmobil").hide("drop", {
+    $(".pattern-email").hide("drop", {
       direction: "right"
     }, "slow");
-    $(".illustrationmobil").css("display", "block", );
+    $(".pattern-email img").css("display", "block", );
     event.stopPropagation();
     event.preventDefault();
 
@@ -19,8 +19,8 @@ $(document).ready(function() {
 
 
 
-  $(".standdardknap").click(function() {
-    $(".illustrationmobil").show("drop", {
+  $(".kon-btn").click(function() {
+    $(".pattern-email").show("drop", {
       direction: "right"
     }, "slow");
     event.preventDefault(1);
