@@ -83,18 +83,40 @@
   </div>
 
   <div class="knap-area-undersider">
-    <div class="svar-knapper">
-      <a href="#" class="mobilknap-undersider">Spil</a>
-      <a href="#" class="mobilknap-undersider">Social</a>
-      <a href="#" class="mobilknap-undersider">Forrretning</a>
-      <a href="#" class="mobilknap-undersider">Uddannelse</a>
-      <a href="#" class="mobilknap-undersider">Livsstil</a>
-      <a href="#" class="mobilknap-undersider">Andet</a>
-    </div>
-    <div>
-      <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
-    </div>
+    <div class="select">
+  <select onchange="changeFunc(this);" id="slct">
+    <option selected disabled>Vælg en platform</option>
+    <option value="1">ISO</option>
+    <option value="2">Begge</option>
+    <option value="3">Android</option>
+    <option value="4">ISO</option>
+    <option value="5">Begge</option>
+    <option value="6">Andet</option>
+  </select>
+</div>
+
+<div id="myDIV3">
+  <div class="kontakt-wrapper3">
+           <div id="error_message"></div>
+           <form id="myform" onsubmit="return validation()">
+             <div class="input_field">
+               <input type="text" placeholder="Andet" id="andet">
+             </div>
+           </form>
   </div>
+</div>
+
+<div id="myDIV2">
+  <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+</div>
+
+<div id="myDIV">
+  <a href="#" class="mobilknap-undersider-videre-knap">Tilbage</a>
+  <a href="#" class="mobilknap-undersider-videre-knap-blue">Næste</a>
+</div>
+  </div>
+
+    <script  src="../javascript/ekstra-svar.js"></script>
 
 
  <div class="processbar">
