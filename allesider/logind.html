@@ -77,14 +77,24 @@
        <div class="illustration-box-4"><img src="../img/keySvg.svg" alt="En nøgle"></div>
   </div>
   <div class="knap-area-undersider">
-    <div class="svar-knapper">
-      <a href="../allesider/indtjening-metode.html" class="mobilknap-undersider">Ja</a>
-      <a href="../allesider/indtjening-metode.html" class="mobilknap-undersider">Nej</a>
+    <div class="select">
+      <select onchange="changeFunc();" name="slct" id="slct">
+        <option selected disabled>Skal din side have log ind?</option>
+        <option value="1">Nej</option>
+        <option value="2">Ja</option>
+      </select>
     </div>
-    <div>
-      <a href="../allesider/indtjening-metode.html" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+
+    <div id="myDIV">
+      <a href="#" class="mobilknap-undersider-videre-knap">Tilbage</a>
+      <a href="#" class="mobilknap-undersider-videre-knap-blue">Næste</a>
     </div>
-  </div>
+    <div id="myDIV2">
+      <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+    </div>
+</div>
+
+      <script src="../javascript/slct.js"></script>
 
 
  <div class="processbar">
