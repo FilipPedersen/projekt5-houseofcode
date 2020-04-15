@@ -619,6 +619,25 @@ ul.sidenav li a:hover:not(.active) {
 
    }
 
+   .blueknap3 {
+
+     text-align: center;
+     display: inline-block;
+     text-decoration: none;
+     border: none;
+     margin-top: 0px;
+     padding: 15px;
+     width: 91%;
+     background: #a6bb75;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-weight: bold;
+     cursor: pointer;
+     font-family: 'Roboto Mono', monospace;
+     color: #ffffff;
+
+    }
+
  .blueknap:hover {
    background-color: #7CA5B8;
    transition: 0.5s ease;
