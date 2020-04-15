@@ -1193,7 +1193,7 @@ margin-top: 0px;
    display: flex;
    margin-top: 0;
    align-items: center;
-  
+
    justify-content: center;
    width: auto;
  }
@@ -1382,5 +1382,10 @@ margin-top: 0px;
     font-size: 40px;
     justify-content: flex-start;
     }
+  }
+
+  .parentBlue2 {
+    margin-left: 32.2vh;
+    position: static;
   }
 /*MEDIA QUERIES SLUT*/
