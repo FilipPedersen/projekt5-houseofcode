@@ -1193,6 +1193,7 @@ margin-top: 0px;
   }
 
  .knapper2{
+   display: flex;
    align-items: center;
    justify-content: center;
  }
@@ -1221,7 +1222,7 @@ margin-top: 0px;
 .textogknapper{
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
   height: auto;
 }
 
@@ -1258,6 +1259,9 @@ margin-top: 0px;
   padding: 20px;
   max-width: 70%;
 }
+/*max-width: 70%;*/
+
+
 
 .vigtig-text p{
   margin-left: 20px;
