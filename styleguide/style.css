@@ -1173,11 +1173,23 @@ margin-top: 0px;
   padding-top: 10%;
   width: 30%;
 }
+.pattern2mobile{
+  width: 30%;
+}
+
+.patternplatform{
+  width: 40%;
+}
+.patternplatform{
+  width: 40%;
+}
+
 
 .patternpc{
   padding-top: 5%;
   width: 30%;
 }
+
 
 .knapper-flexcontainer{
   display: flex;
@@ -1214,8 +1226,7 @@ margin-top: 0px;
     height: 50vh;
 }
 .pattern-pc img{
-  margin-top: 80px;
-  width: 40vh;
+  width: 45vh;
   height: 50vh;
 }
 
