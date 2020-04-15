@@ -575,10 +575,7 @@ ul.sidenav li a:hover:not(.active) {
 .blueknap {
   cursor: pointer;
   display: flex;
-  margin-top: 5px;
-  margin-right: 15px;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 15px;
   width: 130px;
   height: auto;
@@ -595,10 +592,10 @@ ul.sidenav li a:hover:not(.active) {
  .blueknap1 {
    cursor: pointer;
    display: flex;
-   margin-top: 5px;
+   margin-top: 0;
    margin-right: 15px;
    margin-left: 20px;
-   margin-top: 20px;
+   margin-top: 10px;
    padding: 15px;
    width: 130px;
    height: auto;
@@ -618,7 +615,7 @@ ul.sidenav li a:hover:not(.active) {
     display: inline-block;
     text-decoration: none;
     border: none;
-    margin-top: 0px;
+    margin-top: 10px;
     padding: 15px;
     width: 111%;
     background: #a6bb75;
@@ -637,7 +634,7 @@ ul.sidenav li a:hover:not(.active) {
      display: inline-block;
      text-decoration: none;
      border: none;
-     margin-top: 0px;
+     margin-top: 10px;
      padding: 15px;
      width: 91%;
      background: #a6bb75;
@@ -1194,8 +1191,11 @@ margin-top: 0px;
 
  .knapper2{
    display: flex;
+   margin-top: 0;
    align-items: center;
+  
    justify-content: center;
+   width: auto;
  }
  .flex{
    display: flex;
@@ -1227,7 +1227,9 @@ margin-top: 0px;
 }
 
 .knapper{
-
+    display: flex;
+    margin-top: 20px;
+    justify-content: start;
     padding-top: 5%;
 }
 
