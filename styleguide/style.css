@@ -577,6 +577,7 @@ ul.sidenav li a:hover:not(.active) {
   display: flex;
   margin-top: 10px;
   padding: 15px;
+  margin-bottom: 10px;
   width: 130px;
   height: auto;
   border: 3px solid #7CA5B8;
@@ -593,8 +594,6 @@ ul.sidenav li a:hover:not(.active) {
    cursor: pointer;
    display: flex;
    margin-top: 0;
-   margin-right: 15px;
-   margin-left: 20px;
    margin-top: 10px;
    padding: 15px;
    width: 130px;
@@ -1176,6 +1175,10 @@ margin-top: 0px;
 .pattern2mobile{
   width: 30%;
 }
+.pattern-pengepose{
+  margin-top: 5%;
+  width: 25%;
+}
 
 .patternplatform{
   width: 40%;
@@ -1203,11 +1206,9 @@ margin-top: 0px;
 
  .knapper2{
    display: flex;
-   margin-top: 0;
    align-items: center;
-
    justify-content: center;
-   width: auto;
+   width: 100%;
  }
  .flex{
    display: flex;
@@ -1233,6 +1234,7 @@ margin-top: 0px;
 .textogknapper{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   width: 50%;
   height: auto;
 }
@@ -1243,6 +1245,7 @@ margin-top: 0px;
     justify-content: start;
     padding-top: 5%;
 }
+
 
 .pattern-email img{
   width: 40vh;
@@ -1256,6 +1259,12 @@ margin-top: 0px;
   font-size: 20px;
   color: #404f5f;
 }
+.headlinedone{
+  padding-left: ;
+  font-size: 20px;
+  color: #404f5f;
+
+}
 .starttekst{
   padding-left: 60px;
 }
@@ -1265,6 +1274,10 @@ margin-top: 0px;
 
 .bracket{
   padding-left: 20px;
+  font-size: 20px;
+  color: #404f5f;
+}
+.bracketdone{
   font-size: 20px;
   color: #404f5f;
 }
@@ -1396,7 +1409,7 @@ margin-top: 0px;
   }
 
   .parentBlue2 {
-    margin-left: 32.2vh;
+    
     position: static;
   }
 /*MEDIA QUERIES SLUT*/
