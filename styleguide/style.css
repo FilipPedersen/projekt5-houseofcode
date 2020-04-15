@@ -910,7 +910,7 @@ margin-top: 0px;
 }
 
 .kontakt-wrapper textarea{
-  height: 25vh;
+  height: 12vh;
   resize: none;
 }
 
@@ -920,6 +920,20 @@ margin-top: 0px;
 }
 
 .kontakt-wrapper .kon-btn input[type="submit"]{
+  border: none;
+  margin-top: 0px;
+  padding: 15px;
+  width: 120%;
+  background: #a6bb75;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+}
+
+.kontakt-wrapper .kon-btn2 input[type="submit"]{
   border: none;
   margin-top: 0px;
   padding: 15px;
