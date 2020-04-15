@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     $(".blueknap").hide();
 
-    $(".parentBlue").html("<a class='blueknap'>Næste</a>");
+    $(".parentBlue2").html("<a class='blueknap'>Næste</a>");
 
     $(".blueknap")
       .css('color', 'white')
