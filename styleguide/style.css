@@ -421,6 +421,7 @@ PROCESSBAR BLIVER PLACERET I MIDTEN*/
       transform: translateX(-100%);
       margin-right: 60px;
       list-style: none;
+      z-index: 10;
 
     }
     .nav-links2 a{
