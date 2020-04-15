@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".standardknap").click(function() {
     console.log("hi")
-    
+
     $(".blueknap").hide();
 
     $(".parentBlue2").html("<a class='blueknap'>Næste</a>");

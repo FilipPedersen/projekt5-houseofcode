@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,160 +11,162 @@
   <script src="../javascript/intjeningingsboks.js"></script>
   <script src="../javascript/js8.js"></script>
   <title>Indtægts Metode - House of Code</title>
-  <link rel='icon' href='../img/favicon.svg' type='image/x-icon'/>
+  <link rel='icon' href='../img/favicon.svg' type='image/x-icon' />
 </head>
+
 <body>
 
   <!--eksta html kun til web-->
-    <div class="web-processbaroglogo">
-      <div class="blank">
-      </div>
-
-      <div class="processbar1">
-        <img src="../img/processbar/8bar.svg" alt="Processbar">
-      </div>
-
-      <div class="menu1">
-        <div class="logo1">
-          <a href="../allesider/index.html">
-            <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
-        </div>
-
-        <div class="nav1">
-          <nav>
-            <ul class="nav-links">
-              <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
-              <li><a href="../allesider/logind.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-
+  <div class="web-processbaroglogo">
+    <div class="blank">
     </div>
 
-    <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
-    <div class="header">
-      <div class="logo">
+    <div class="processbar1">
+      <img src="../img/processbar/8bar.svg" alt="Processbar">
+    </div>
+
+    <div class="menu1">
+      <div class="logo1">
         <a href="../allesider/index.html">
           <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
       </div>
 
-      <div class="menu">
+      <div class="nav1">
         <nav>
-          <ul class="nav-links2">
+          <ul class="nav-links">
             <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
             <li><a href="../allesider/logind.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
           </ul>
-          <div class="burgermenu">
-            <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
-          </div>
         </nav>
       </div>
+    </div>
+
+  </div>
+
+  <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
+  <div class="header">
+    <div class="logo">
+      <a href="../allesider/index.html">
+        <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
+    </div>
+
+    <div class="menu">
+      <nav>
+        <ul class="nav-links2">
+          <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
+          <li><a href="../allesider/logind.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
+        </ul>
+        <div class="burgermenu">
+          <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+
+  <!--Hele dette er diven/parenten for alt
+   content altså text,
+   illustrationer, og knapper-->
+  <div class="content">
+    <div class="text-undersider">
+      <h1>Indtægts Metode<span> {</span></h1>
+      <p class="ledende-text-undersider">Hvordan skal din App lave Penge? (Flere kan vælges)</p>
+      <p>}</p>
 
     </div>
 
-    <!--Hele dette er diven/parenten for alt
-   content altså text,
-   illustrationer, og knapper-->
-   <div class="content">
- <div class="text-undersider">
-   <h1>Indtægts Metode<span> {</span></h1>
-   <p class="ledende-text-undersider">Hvordan skal din App lave Penge? (Flere kan vælges)</p>
-   <p>}</p>
+    <!--Div til illustrationerne MOBIL-->
+    <div class="illustration">
+      <div class="illustration-box-3"><img src="../img/pengeposeSvg.svg" alt="En penge pose"></div>
+    </div>
 
- </div>
-
- <!--Div til illustrationerne MOBIL-->
-  <div class="illustration">
-       <div class="illustration-box-3"><img src="../img/pengeposeSvg.svg" alt="En penge pose"></div>
-  </div>
-
-  <div class="knap-area-undersider">
+    <div class="knap-area-undersider">
       <div class="svar-knapper" onclick="changeFunc();">
         <button value="1" class="mobilknap-undersider" id="farve-skift">Gratis</button>
         <button value="2" class="mobilknap-undersider" id="farve-skift">Abonoment</button>
         <button value="3" class="mobilknap-undersider" id="farve-skift">Provision</button>
         <button value="4" class="mobilknap-undersider" id="farve-skift">Køb i appen</button>
         <button value="5" class="mobilknap-undersider" id="farve-skift">Straks Betaling</a>
-        <button value="6" class="mobilknap-undersider" id="farve-skift">Reklamer</a>
+          <button value="6" class="mobilknap-undersider" id="farve-skift">Reklamer</a>
       </div>
 
       <div id="myDIV4">
         <div class="kontakt-wrapper3">
-              <div class="input_field">
-                   <input type="text" placeholder="Andet" id="andet">
-              </div>
+          <div class="input_field">
+            <input type="text" placeholder="Andet" id="andet">
+          </div>
         </div>
       </div>
 
     </div>
-      <div id="myDIV">
-        <a href="logind.html" class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Tilbage</a>
-        <a class="mobilknap-undersider-videre-knap-blue" id="jQueryColorChangeBlue">Næste</a>
-      </div>
-      <div id="myDIV2">
-        <a class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Ved Ikke</a>
-      </div>
+    <div id="myDIV">
+      <a href="logind.html" class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Tilbage</a>
+      <a class="mobilknap-undersider-videre-knap-blue" id="jQueryColorChangeBlue">Næste</a>
     </div>
+    <div id="myDIV2">
+      <a class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Ved Ikke</a>
+    </div>
+  </div>
 
-    <!-- partial -->
-      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script  src="../javascript/script.js"></script>
-      <script src="../javascript/slct.js"></script>
+  <!-- partial -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="../javascript/script.js"></script>
+  <script src="../javascript/slct.js"></script>
 
 
- <div class="processbar">
-         <img src="../img/processbar/8bar.svg" alt="Processbar8">
- </div>
+  <div class="processbar">
+    <img src="../img/processbar/8bar.svg" alt="Processbar8">
+  </div>
 
-      <!--Processbar Mobil-->
-      <!--<div class="processbar">
+  <!--Processbar Mobil-->
+  <!--<div class="processbar">
         PROCESSBAREN
       </div>-->
 
 
-      <script src="../javascript/navbar.js"></script>
+  <script src="../javascript/navbar.js"></script>
 
-      <div class="content-container">
+  <div class="content-container">
 
-        <div class="textogknapper">
-          <div class="headline">
-            <h1>Indtægts metode   {</h1>
-          </div>
-          <div class="vigtig-text">
-            <p>
-            Hvordan skal din App lave
-            Penge? (Flere kan vælges)
-            </p>
-          </div>
-          <div class="bracket">
-            <h1>}</h1>
-         </div>
-         <div class="knapper">
-          <div class="knapper-flexcontainer">
-            <div class="knap-container">
-              <a class="standardknap" id="1">Gratis</a>
-              <a class="standardknap" id="2" >Abonoment</a>
-              <a class="standardknap" id="3" >Provision</a>
-            </div>
-            <div class="knap-container">
-              <a class="standardknap" id="4" >Køb i appen</a>
-             <a class="standardknap" id="5" >Straks Betaling</a>
-          <a class="standardknap" id="6" >Reklamer</a>
-        </div>
-          <div class="knapper2">
-          <a class="standardknap" id="7">Andet</a>
-          <div class="parentBlue2">
-            <a class="blueknap">Ved ikke</a>
-            </div>
-        </div>
-        
-        </div>
-        </div>
-        </div>
-       <div class="pattern-pengepose">
-         <img src="../img/pengeposeSvg.svg" alt="pengepose">
-       </div>
+    <div class="textogknapper">
+      <div class="headline">
+        <h1>Indtægts metode {</h1>
       </div>
+      <div class="vigtig-text">
+        <p>
+          Hvordan skal din App lave
+          Penge?
+        </p>
+      </div>
+      <div class="bracket">
+        <h1>}</h1>
+      </div>
+      <div class="knapper">
+        <div class="knapper-flexcontainer">
+          <div class="knap-container">
+            <a class="standardknap" id="1">Gratis</a>
+            <a class="standardknap" id="2">Abonoment</a>
+            <a class="standardknap" id="3">Provision</a>
+          </div>
+          <div class="knap-container">
+            <a class="standardknap" id="4">Køb i appen</a>
+            <a class="standardknap" id="5">Straks Betaling</a>
+            <a class="standardknap" id="6">Reklamer</a>
+          </div>
+          <div class="knapper2">
+            <a class="standardknap" id="7">Andet</a>
+            <div class="parentBlue2">
+              <a class="blueknap">Ved ikke</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="pattern-pengepose">
+      <img src="../img/pengeposeSvg.svg" alt="pengepose">
+    </div>
+  </div>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,130 +10,132 @@
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
   <script src="../javascript/js2.js"></script>
   <title>Dit koncept - House of Code</title>
-  <link rel='icon' href='../img/favicon.svg' type='image/x-icon'/>
+  <link rel='icon' href='../img/favicon.svg' type='image/x-icon' />
 </head>
+
 <body>
 
   <!--eksta html kun til web-->
-    <div class="web-processbaroglogo">
+  <div class="web-processbaroglogo">
 
-      <div class="blank">
-
-      </div>
-
-      <div class="processbar1">
-        <img src="../img/processbar/2bar.svg" alt="Processbar">
-      </div>
-
-      <div class="menu1">
-        <div class="logo1">
-          <a href="../allesider/index.html">
-            <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
-        </div>
-
-        <div class="nav1">
-          <nav>
-            <ul class="nav-links">
-              <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
-              <li><a href="../allesider/kontakt.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+    <div class="blank">
 
     </div>
 
-    <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
-    <div class="header">
-      <div class="logo">
+    <div class="processbar1">
+      <img src="../img/processbar/2bar.svg" alt="Processbar">
+    </div>
+
+    <div class="menu1">
+      <div class="logo1">
         <a href="../allesider/index.html">
           <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
       </div>
 
-      <div class="menu">
+      <div class="nav1">
         <nav>
-          <ul class="nav-links2">
+          <ul class="nav-links">
             <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
             <li><a href="../allesider/kontakt.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
           </ul>
-          <div class="burgermenu">
-            <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
-          </div>
         </nav>
       </div>
+    </div>
+
+  </div>
+
+  <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
+  <div class="header">
+    <div class="logo">
+      <a href="../allesider/index.html">
+        <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
+    </div>
+
+    <div class="menu">
+      <nav>
+        <ul class="nav-links2">
+          <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
+          <li><a href="../allesider/kontakt.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
+        </ul>
+        <div class="burgermenu">
+          <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+
+  <!--Hele dette er diven/parenten for alt
+   content altså text,
+   illustrationer, og knapper-->
+  <div class="content">
+    <div class="text-undersider">
+      <h1>Dit Koncept <span> {</span></h1>
+      <p class="ledende-text-undersider">Har du allerede et koncept som du gerne vil have vi arbejder videre med? Skriv det her:</p>
+      <p>}</p>
 
     </div>
 
-    <!--Hele dette er diven/parenten for alt
-   content altså text,
-   illustrationer, og knapper-->
-   <div class="content">
- <div class="text-undersider">
-   <h1>Dit Koncept <span> {</span></h1>
-   <p class="ledende-text-undersider">Har du allerede et koncept som du gerne vil have vi arbejder videre med? Skriv det her:</p>
-   <p>}</p>
+    <!--MOBIL Dette er extratksten på forsiden-->
+    <div class="kontakt-wrapper2">
+      <div id="error_message"></div>
 
- </div>
+      <form id="myform" onsubmit="return validation()">
+        <div class="input_field">
+          <textarea id="besked" placeholder="Skriv dit koncept her"></textarea>
+        </div>
+        <div class="knapper2">
+          <a class="blueknap3">Indsend</a>
+        </div>
+      </form>
+    </div>
 
- <!--MOBIL Dette er extratksten på forsiden-->
- <div class="kontakt-wrapper2">
-          <div id="error_message"></div>
+    <div class="processbar">
+      <img src="../img/processbar/2bar.svg" alt="Processbar2">
+    </div>
 
-          <form id="myform" onsubmit="return validation()">
-            <div class="input_field">
-              <textarea id="besked" placeholder="Skriv dit koncept her"></textarea>
-            </div>
-            <div class="knapper2">
-            <a class="blueknap3">Indsend</a>
-            </div>
-          </form>
- </div>
-
- <div class="processbar">
-         <img src="../img/processbar/2bar.svg" alt="Processbar2">
- </div>
-
-      <!--Processbar Mobil-->
-      <!--<div class="processbar">
+    <!--Processbar Mobil-->
+    <!--<div class="processbar">
         PROCESSBAREN
       </div>-->
+  </div>
+
+  <script src="../javascript/navbar.js"></script>
+
+  <div class="content-container">
+
+    <div class="textogknapper">
+      <div class="headline">
+        <h1>Dit koncept {</h1>
       </div>
-
-      <script src="../javascript/navbar.js"></script>
-
-      <div class="content-container">
-
-        <div class="textogknapper">
-          <div class="headline">
-            <h1>Dit koncept   {</h1>
-          </div>
-          <div class="vigtig-text">
-            <p>Har du allerede et koncept som
-              du gerne vil have vi arbejder
-              videre med? Skriv det her:
-            </p>
-          </div>
-          <div class="bracket">
-            <h1>}</h1>
-         </div>
-          <div class="kontakt-wrapper">
-                   <div id="error_message"></div>
-
-                   <form id="myform" onsubmit="return validation()">
-                     <div class="input_field">
-                       <textarea id="besked" placeholder="Skriv dit koncept her"></textarea>
-                     </div>
-                     <div class="knapperkoncept">
-                     <a class="blueknap2">Indsend</a>
-                     </div>
-                   </form>
-
-          </div>
-        </div>
-       <div class="pattern">
-         <img src="../img/mobilequestionmarkSvg.svg" alt="en mobil med et spørgsmålstegn" id="questionmark">
-       </div>
+      <div class="vigtig-text">
+        <p>Har du allerede et koncept som
+          du gerne vil have vi arbejder
+          videre med? Skriv det her:
+        </p>
       </div>
-      <script src="../javascript/checkmark.js"></script>
+      <div class="bracket">
+        <h1>}</h1>
+      </div>
+      <div class="kontakt-wrapper">
+        <div id="error_message"></div>
+
+        <form id="myform" onsubmit="return validation()">
+          <div class="input_field">
+            <textarea id="besked" placeholder="Skriv dit koncept her"></textarea>
+          </div>
+          <div class="knapperkoncept">
+            <a class="blueknap2">Indsend</a>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <div class="pattern">
+      <img src="../img/mobilequestionmarkSvg.svg" alt="en mobil med et spørgsmålstegn" id="questionmark">
+    </div>
+  </div>
+  <script src="../javascript/checkmark.js"></script>
 </body>
+
 </html>

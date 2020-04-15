@@ -1,5 +1,5 @@
-  $( "button#farve-skift" ).click(function() {
+  $("button#farve-skift").click(function() {
 
 
-  $(this).toggleClass( "selected" );
-});
+    $(this).toggleClass("selected");
+  });

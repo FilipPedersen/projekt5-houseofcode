@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,142 +11,144 @@
   <script src="../javascript/js3.js"></script>
   <script src="../javascript/platformbox.js"></script>
   <title>Platform - House of Code</title>
-  <link rel='icon' href='../img/favicon.svg' type='image/x-icon'/>
+  <link rel='icon' href='../img/favicon.svg' type='image/x-icon' />
 </head>
+
 <body>
 
   <!--eksta html kun til web-->
-    <div class="web-processbaroglogo">
+  <div class="web-processbaroglogo">
 
-      <div class="blank">
-
-      </div>
-
-      <div class="processbar1">
-        <img src="../img/processbar/3bar.svg" alt="Processbar">
-      </div>
-
-      <div class="menu1">
-        <div class="logo1">
-          <a href="../allesider/index.html">
-            <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
-        </div>
-
-        <div class="nav1">
-          <nav>
-            <ul class="nav-links">
-              <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
-              <li><a href="../allesider/koncept.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+    <div class="blank">
 
     </div>
 
-    <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
-    <div class="header">
-      <div class="logo">
+    <div class="processbar1">
+      <img src="../img/processbar/3bar.svg" alt="Processbar">
+    </div>
+
+    <div class="menu1">
+      <div class="logo1">
         <a href="../allesider/index.html">
           <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
       </div>
 
-      <div class="menu">
+      <div class="nav1">
         <nav>
-          <ul class="nav-links2">
+          <ul class="nav-links">
             <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
             <li><a href="../allesider/koncept.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
           </ul>
-          <div class="burgermenu">
-            <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
-          </div>
         </nav>
       </div>
-
     </div>
 
-    <!--Hele dette er diven/parenten for alt
-   content altså text,
-   illustrationer, og knapper-->
-   <div class="content">
- <div class="text-undersider">
-   <h1>Platform<span> {</span></h1>
-   <p class="ledende-text-undersider">Hvilken platform skal din App være på?</p>
-   <p>}</p>
-
- </div>
-
- <!--Div til illustrationerne MOBIL-->
-  <div class="illustration-to-billeder">
-       <div class="illustration-box-6"><img src="../img/androidSvg.svg" alt="Mobile"></div>
-       <div class="illustration-box-6"><img src="../img/apple.svg" alt="Mobile"></div>
   </div>
 
-  <div class="knap-area-undersider">
-    <div class="select">
-      <select onchange="changeFunc();" name="slct" id="slct">
-        <option selected disabled>Vælg en platform</option>
-        <option value="1">IOS</option>
-        <option value="2">Begge</option>
-        <option value="3">Android</option>
-      </select>
+  <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
+  <div class="header">
+    <div class="logo">
+      <a href="../allesider/index.html">
+        <img class="logomobil" alt="logo" src="../img/colorlogo.svg">
     </div>
 
-    <div id="myDIV">
-      <a href="koncept.html" class="mobilknap-undersider-videre-knap">Tilbage</a>
-      <a class="mobilknap-undersider-videre-knap-blue">Næste</a>
+    <div class="menu">
+      <nav>
+        <ul class="nav-links2">
+          <li><a href="../allesider/index.html"><i class="fas fa-times"></i>Luk</a></li>
+          <li><a href="../allesider/koncept.html"><i class="fas fa-chevron-left"></i>Tilbage</a></li>
+        </ul>
+        <div class="burgermenu">
+          <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
+        </div>
+      </nav>
     </div>
-    <div id="myDIV2">
-      <a class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+
+  </div>
+
+  <!--Hele dette er diven/parenten for alt
+   content altså text,
+   illustrationer, og knapper-->
+  <div class="content">
+    <div class="text-undersider">
+      <h1>Platform<span> {</span></h1>
+      <p class="ledende-text-undersider">Hvilken platform skal din App være på?</p>
+      <p>}</p>
+
     </div>
-</div>
 
-      <script src="../javascript/slct.js"></script>
+    <!--Div til illustrationerne MOBIL-->
+    <div class="illustration-to-billeder">
+      <div class="illustration-box-6"><img src="../img/androidSvg.svg" alt="Mobile"></div>
+      <div class="illustration-box-6"><img src="../img/apple.svg" alt="Mobile"></div>
+    </div>
 
- <div class="processbar">
-         <img src="../img/processbar/3bar.svg" alt="Processbar3">
- </div>
+    <div class="knap-area-undersider">
+      <div class="select">
+        <select onchange="changeFunc();" name="slct" id="slct">
+          <option selected disabled>Vælg en platform</option>
+          <option value="1">IOS</option>
+          <option value="2">Begge</option>
+          <option value="3">Android</option>
+        </select>
+      </div>
 
-      <!--Processbar Mobil-->
-      <!--<div class="processbar">
+      <div id="myDIV">
+        <a href="koncept.html" class="mobilknap-undersider-videre-knap">Tilbage</a>
+        <a class="mobilknap-undersider-videre-knap-blue">Næste</a>
+      </div>
+      <div id="myDIV2">
+        <a class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+      </div>
+    </div>
+
+    <script src="../javascript/slct.js"></script>
+
+    <div class="processbar">
+      <img src="../img/processbar/3bar.svg" alt="Processbar3">
+    </div>
+
+    <!--Processbar Mobil-->
+    <!--<div class="processbar">
         PROCESSBAREN
       </div>-->
+  </div>
+
+  <script src="../javascript/navbar.js"></script>
+
+  <div class="content-container">
+
+    <div class="textogknapper">
+      <div class="headline">
+        <h1>Platform {</h1>
+      </div>
+      <div class="vigtig-text">
+        <p>
+          Hvilken platform skal
+          din App være på?
+        </p>
+      </div>
+      <div class="bracket">
+        <h1>}</h1>
       </div>
 
-      <script src="../javascript/navbar.js"></script>
-
-      <div class="content-container">
-
-        <div class="textogknapper">
-          <div class="headline">
-            <h1>Platform   {</h1>
+      <div class="flex">
+        <div class="knapper-flexcontainer">
+          <div class="knap-container">
+            <a class="standardknap" id="1">IOS</a>
+            <a class="standardknap" id="2">Begge</a>
+            <a class="standardknap" id="3">Android</a>
           </div>
-          <div class="vigtig-text">
-            <p>
-            Hvilken platform skal
-            din App være på?
-            </p>
-          </div>
-          <div class="bracket">
-            <h1>}</h1>
-         </div>
-
-          <div class="flex">
-            <div class="knapper-flexcontainer">
-              <div class="knap-container">
-              <a class="standardknap" id="1">IOS</a>
-              <a class="standardknap" id="2">Begge</a>
-              <a class="standardknap" id="3">Android</a>
-              </div>
-              <div class="knapper2">
-              <a class="blueknap">Ved ikke</a>
-              </div>
-            </div>
+          <div class="knapper2">
+            <a class="blueknap">Ved ikke</a>
           </div>
         </div>
-       <div class="patternplatform">
-         <img src="../img/patternplatform.svg" alt="svg img">
-       </div>
       </div>
+    </div>
+    <div class="patternplatform">
+      <img src="../img/patternplatform.svg" alt="svg img">
+    </div>
+  </div>
 </body>
+
 </html>

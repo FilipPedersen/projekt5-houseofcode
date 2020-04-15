@@ -2,7 +2,7 @@ $(document).ready(function() {
   $(".standardknap").click(function() {
     console.log("hi")
 
-      $(".blueknap1").hide();
+    $(".blueknap1").hide();
 
 
 
