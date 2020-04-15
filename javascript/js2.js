@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 
 
-    $(".kon-btn").click(function(){ //tjekker når der klikkes på den knap med klassen standardknap
+    $(".blueknap3").click(function(){ //tjekker når der klikkes på den knap med klassen standardknap
       $('body') //tager fat i bodyen af den givne html side
           .animate({opacity: 0},300 , function() { // bruger jquery animate funktion til at ændre opacity og venter 300 del af et sekund
               $(this)//refererer til min parent altså body
