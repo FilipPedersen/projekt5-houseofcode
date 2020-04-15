@@ -43,7 +43,6 @@
 
 
   <!--Flex parent, er rundt om HELE SIDEN-->
-  <div class="flex-parent">
     <!--HEADER ER FLEXBOX TIL LOGO OG MENUBAR-->
     <div class="header">
       <div class="logo">
@@ -82,18 +81,38 @@
   </div>
 
   <div class="knap-area-undersider">
-    <div class="svar-knapper">
-      <a class="mobilknap-undersider">Kontrolpanel</a>
-      <a class="mobilknap-undersider">Søgefelt</a>
-      <a class="mobilknap-undersider">Kontorer</a>
-      <a class="mobilknap-undersider">Notifikationer</a>
-      <a class="mobilknap-undersider">Chatbox</a>
-      <a class="mobilknap-undersider">Andet</a>
+      <div class="svar-knapper" onclick="changeFunc(this);">
+        <button onclick="myFunction()" value="1" class="mobilknap-undersider" id="jQueryColorChange">Kontrolpanel</button>
+        <button onclick="myFunction()" value="2" class="mobilknap-undersider" id="jQueryColorChange">Søgefelt</button>
+        <button onclick="myFunction()" value="3" class="mobilknap-undersider" id="jQueryColorChange">Kontorer</button>
+        <button onclick="myFunction()" value="4" class="mobilknap-undersider" id="jQueryColorChange">Notifikationer</button>
+        <button onclick="myFunction()" value="5" class="mobilknap-undersider" id="jQueryColorChange">Chatbox</a>
+      </div>
+
+      <div id="myDIV4">
+        <div class="kontakt-wrapper3">
+            <form id="myform" onsubmit="return validation()">
+               <div class="input_field">
+                   <input type="text" placeholder="Andet" id="andet">
+                 </div>
+              </form>
+        </div>
+      </div>
+
     </div>
-    <div>
-      <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+      <div id="myDIV">
+        <a href="#" class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Tilbage</a>
+        <a href="#" class="mobilknap-undersider-videre-knap-blue" id="jQueryColorChangeBlue">Næste</a>
+      </div>
+      <div id="myDIV2">
+        <a href="#" class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Ved Ikke</a>
+      </div>
     </div>
-  </div>
+
+    <!-- partial -->
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script  src="../javascript/script.js"></script>
+      <script src="../javascript/slct.js"></script>
 
 
  <div class="processbar">
@@ -104,7 +123,7 @@
       <!--<div class="processbar">
         PROCESSBAREN
       </div>-->
-      </div>
+
 
       <!--JAVASCRIPT-->
       <script src="../javascript/navbar.js"></script>

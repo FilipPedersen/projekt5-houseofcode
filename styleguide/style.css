@@ -674,6 +674,11 @@ ul.sidenav li a:hover:not(.active) {
    display: inline-block;
   }
 
+  .selected {
+      color: white;
+      background:#a6bb75;
+
+  }
 
 
 .mobilknap-undersider-videre-knap {
@@ -733,6 +738,9 @@ bottom: 0px;
 width: 70%;
 }
 
+#myDIV4 {
+  display: block;
+}
 
 /*-------------------------------------------------------------------------------------------------------*/
 

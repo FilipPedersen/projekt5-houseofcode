@@ -8,7 +8,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
   <script src="../javascript/intjeningingsboks.js"></script>
-  <script src="../javascript/indtjeningmobil.js"></script>
   <script src="../javascript/js8.js"></script>
   <title>Indtægts Metode - House of Code</title>
   <link rel='icon' href='../img/favicon.svg' type='image/x-icon'/>
@@ -83,20 +82,39 @@
   </div>
 
   <div class="knap-area-undersider">
-    <div class="svar-knapper">
-      <a class="mobilknap-undersider">Gratis</a>
-      <a class="mobilknap-undersider">Abonnoment</a>
-      <a class="mobilknap-undersider">Provision</a>
-      <a class="mobilknap-undersider">Køb i Appen</a>
-      <a class="mobilknap-undersider">Straks Betaling</a>
-      <a class="mobilknap-undersider">Reklamer</a>
+      <div class="svar-knapper" onclick="changeFunc(this);">
+        <button onclick="myFunction()" value="1" class="mobilknap-undersider" id="jQueryColorChange">Gratis</button>
+        <button onclick="myFunction()" value="2" class="mobilknap-undersider" id="jQueryColorChange">Abonoment</button>
+        <button onclick="myFunction()" value="3" class="mobilknap-undersider" id="jQueryColorChange">Provision</button>
+        <button onclick="myFunction()" value="4" class="mobilknap-undersider" id="jQueryColorChange">Køb i appen</button>
+        <button onclick="myFunction()" value="5" class="mobilknap-undersider" id="jQueryColorChange">Straks Betaling</a>
+        <button onclick="myFunction()" value="6" class="mobilknap-undersider" id="jQueryColorChange">Reklamer</a>
+      </div>
+
+      <div id="myDIV4">
+        <div class="kontakt-wrapper3">
+            <form id="myform" onsubmit="return validation()">
+               <div class="input_field">
+                   <input type="text" placeholder="Andet" id="andet">
+                 </div>
+              </form>
+        </div>
+      </div>
+
+    </div>
+      <div id="myDIV">
+        <a href="#" class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Tilbage</a>
+        <a href="#" class="mobilknap-undersider-videre-knap-blue" id="jQueryColorChangeBlue">Næste</a>
+      </div>
+      <div id="myDIV2">
+        <a href="#" class="mobilknap-undersider-videre-knap" id="jQueryColorChangeBlue">Ved Ikke</a>
+      </div>
     </div>
 
-    <div>
-      <a href="#" class="mobilknap-undersider">Andet</a>
-      <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
-    </div>
-  </div>
+    <!-- partial -->
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script  src="../javascript/script.js"></script>
+      <script src="../javascript/slct.js"></script>
 
 
  <div class="processbar">
@@ -107,7 +125,7 @@
       <!--<div class="processbar">
         PROCESSBAREN
       </div>-->
-      </div>
+
 
       <script src="../javascript/navbar.js"></script>
 
