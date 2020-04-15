@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Styleguide til House of Code</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/211c7f6f1f.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="../javascript/intjeningingsboks.js"></script>
+  <script src="../javascript/js8.js"></script>
+  <script src="../javascript/ekstra-svar.js"></script>
+  <script src="../javascript/navbar.js"></script>
+</head>
+
+<body>
+
+  <ul class="sidenav">
+    <li><a href="index.html">Knapper</a></li>
+    <li><a href="farver.html">Farver</a></li>
+    <li><a href="formular.html">Formular</a></li>
+    <li><a href="ikoner.html">Ikoner</a></li>
+    <li><a class="active" href="javascript.html">javascript</a></li>
+  </ul>
+
+  <div class="container">
+    <div class="">
+      <h2>Javascript</h2>
+      <p>Her ses det java der er lavet til vores landingpage</p>
+
+      <div class="content-container2">
+
+        <div class="knapper">
+          <p>Her er Java til at lave bokse favet og ikke farvet</p>
+          <div class="knapper-flexcontainer">
+            <div class="knap-container">
+              <a class="standardknap" id="1">Gratis</a>
+              <a class="standardknap" id="2">Abonoment</a>
+              <a class="standardknap" id="3">Provision</a>
+            </div>
+            <div class="knap-container">
+              <a class="standardknap" id="4">Køb i appen</a>
+              <a class="standardknap" id="5">Straks Betaling</a>
+              <a class="standardknap" id="6">Reklamer</a>
+            </div>
+            <div class="knapper2">
+              <a class="standardknap" id="7">Andet</a>
+            </div>
+            <div class="parentBlue2">
+              <a class="blueknap">Ved ikke</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="content2">
+        <br>
+        <h2>Javascript</h2>
+        <xmp class="kontakttekst">
+          $(document).ready(function() {
+          $(".standardknap").click(function() {
+          console.log("hi")
+
+          $(".blueknap").hide();
+
+          $(".parentBlue2").html("<a class='blueknap'>Næste</a>");
+
+          $(".blueknap")
+          .css('color', 'white')
+          .css('background-color', '#7CA5B8');
+
+
+          });
+
+          $("#1").click(function() {
+          one();
+          });
+
+          $("#2").click(function() {
+          two()();
+          });
+          $("#3").click(function() {
+          three();
+          });
+          $("#4").click(function() {
+          four();
+          });
+          $("#5").click(function() {
+          five();
+          });
+          $("#6").click(function() {
+          six();
+          });
+          $("#7").click(function() {
+          seven();
+          });
+
+
+
+
+
+          function one() {
+          $("#1").css('color', 'white').css('background-color', '#a6bb75');
+
+          $("#2,#3,#4,#5,#6,#7").css('color', ' #a6bb75').css('background-color', 'white');
+          }
+
+
+          function two() {
+          $("#2").css('color', 'white').css('background-color', '#a6bb75');
+          $("#1,#3,#4,#5,#6,#7").css('color', ' #a6bb75').css('background-color', 'white');
+          }
+
+          function three() {
+          $("#3").css('color', 'white').css('background-color', '#a6bb75');
+          $("#2,#1,#4,#5,#6,#7").css('color', ' #a6bb75').css('background-color', 'white');
+          }
+
+          function four() {
+          $("#4").css('color', 'white').css('background-color', '#a6bb75');
+          $("#2,#3,#1,#5,#6,#7").css('color', ' #a6bb75').css('background-color', 'white');
+          }
+
+          function five() {
+          $("#5").css('color', 'white').css('background-color', '#a6bb75');
+          $("#2,#3,#4,#1,#6,#7").css('color', ' #a6bb75').css('background-color', 'white');
+          }
+
+          function six() {
+          $("#6").css('color', 'white').css('background-color', '#a6bb75');
+          $("#2,#3,#4,#5,#1,#7").css('color', ' #a6bb75').css('background-color', 'white');
+          }
+
+          function seven() {
+          $("#7").css('color', 'white').css('background-color', '#a6bb75');
+          $("#2,#3,#4,#5,#6,#1").css('color', ' #a6bb75').css('background-color', 'white');
+          }
+
+          });
+        </xmp>
+
+        <h2>Javascript 2 - page transition</h2>
+        <xmp>
+          $(document).ready(function(){
+
+          var newBg = "../img/baugrund.png"; //variable til grå baggrund
+          var oldBg = "../img/bodyimg.svg"; //variable til normale baggrund
+          $(".standardknap").click(function(){ //tjekker når der klikkes på den knap med klassen standardknap
+          $('body') //tager fat i bodyen af den givne html side
+          .animate({opacity: 0},300 , function() { // bruger jquery animate funktion til at ændre opacity og venter 300 del af et sekund
+          $(this)//refererer til min parent altså body
+          .css({'background-image': 'url('+newBg+')'})//ændre css bagrrund billede til new bg
+          .animate({opacity: 1}) //sætter opacity til 1 igen
+          .css({'background-image': 'url('+oldBg+')'}) //ændre css bagrrund billede til old bg
+          .load("kontakt.html"); //loader den givne side husk at brug live server
+
+          });
+          });
+
+
+          $(".standardknap2").click(function(){ //tjekker når der klikkes på den knap med klassen standardknap
+          $('body') //tager fat i bodyen af den givne html side
+          .animate({opacity: 0},300 , function() { // bruger jquery animate funktion til at ændre opacity og venter 300 del af et sekund
+          $(this)//refererer til min parent altså body
+          .css({'background-image': 'url('+newBg+')'})//ændre css bagrrund billede til new bg
+          .animate({opacity: 1}) //sætter opacity til 1 igen
+          .css({'background-image': 'url('+oldBg+')'}) //ændre css bagrrund billede til old bg
+          .load("done.html"); //loader den givne side husk at brug live server
+
+          });
+          });
+
+
+          $(".mobilknap").click(function(){ //tjekker når der klikkes på den knap med klassen standardknap
+          $('body') //tager fat i bodyen af den givne html side
+          .animate({opacity: 0},300 , function() { // bruger jquery animate funktion til at ændre opacity og venter 300 del af et sekund
+          $(this)//refererer til min parent altså body
+          .css({'background-image': 'url('+newBg+')'})//ændre css bagrrund billede til new bg
+          .animate({opacity: 1}) //sætter opacity til 1 igen
+          .css({'background-image': 'url('+oldBg+')'}) //ændre css bagrrund billede til old bg
+          .load("kontakt.html"); //loader den givne side husk at brug live server
+
+          });
+          });
+
+
+          });
+
+        </xmp>
+        <h2>Javascript 3 - App kategori vælger</h2>
+        <p>Java til dropdown i mobil</p>
+        <div class="knap-area-undersider">
+          <div class="select">
+            <select onchange="changeFunc(this);" id="slct">
+              <option selected disabled>Vælg en App kategori</option>
+              <option value="1">Spil</option>
+              <option value="2">Social</option>
+              <option value="3">Forretning</option>
+              <option value="4">Uddabelse</option>
+              <option value="5">Livsstil</option>
+              <option value="6">Andet</option>
+            </select>
+          </div>
+
+          <div id="myDIV3">
+            <div class="kontakt-wrapper3">
+              <div class="input_field">
+                <input type="text" placeholder="Andet" id="andet">
+              </div>
+            </div>
+          </div>
+
+          <div id="myDIV2">
+            <a href="#" class="mobilknap-undersider-videre-knap">Ved Ikke</a>
+          </div>
+
+          <div id="myDIV">
+            <a href="#" class="mobilknap-undersider-videre-knap">Tilbage</a>
+            <a href="#" class="mobilknap-undersider-videre-knap-blue">Næste</a>
+          </div>
+        </div>
+        <xmp>
+          function changeFunc(selectObject) { /* Jeg opretter function changeFunc() */
+
+          /* Jeg oprettter en variabler som jeg value
+          som skal hentet den value som er selected i functionen */
+          var value = selectObject.value;
+
+          /* Jeg oprettter to variabler som jeg kalder z, x og y.
+
+          Jeg sætter disse variabler til at bruge metode
+          get getElementById(). */
+          var z = document.getElementById("myDIV3"); /* z henter divet "myDIV3". */
+          var x = document.getElementById("myDIV"); /* x henter divet "my DIV" */
+          var y = document.getElementById("myDIV2"); /* y henter divet "my DIV2" */
+          console.log(value); /* valuen bliver printet ud i loggen som et check */
+
+          /* Jeg bruger en if-else statment som hvis det valgte objekt er
+          "6" */
+          if (selectObject.value === "6") {
+          z.style.display = "block"; /* z display style ændres til "block" */
+          x.style.display = "block"; /* x display style ændres til "block" */
+          y.style.display = "none"; /* y display style ændres til "none" */
+          } else {
+          z.style.display = "none"; /* z display style ændres til "none" */
+          x.style.display = "block"; /* x display style ændres til "block" */
+          y.style.display = "none"; /* y display style ændres til "none" */
+
+          }
+
+          };
+
+        </xmp>
+        <h2>Javascript 4 - Vælg flere knapper af gangen</h2>
+        <div class="knap-area-undersider">
+          <div class="svar-knapper" onclick="changeFunc();">
+            <button value="1" class="mobilknap-undersider" id="farve-skift">Gratis</button>
+            <button value="2" class="mobilknap-undersider" id="farve-skift">Abonoment</button>
+            <button value="3" class="mobilknap-undersider" id="farve-skift">Provision</button>
+            <button value="4" class="mobilknap-undersider" id="farve-skift">Køb i appen</button>
+            <button value="5" class="mobilknap-undersider" id="farve-skift">Straks Betaling</a>
+              <button value="6" class="mobilknap-undersider" id="farve-skift">Reklamer</a>
+          </div>
+
+          <div id="myDIV4">
+            <div class="kontakt-wrapper3">
+              <div class="input_field">
+                <input type="text" placeholder="Andet" id="andet">
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- partial -->
+          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script src="../javascript/script.js"></script>
+          <script src="../javascript/slct.js"></script>
+
+          ´<xmp>
+            $( "button#farve-skift" ).click(function() {
+
+
+            $(this).toggleClass( "selected" );
+            });
+
+          </xmp>
+
+          <h2>Javascript 5 - Navigationsbar/Burgermenu</h2>
+
+          <br>
+
+          <div class="menu">
+            <nav>
+              <div class="burgermenu">
+                <div class="burgericon"><img src="../img/iconburger.svg" alt="house of code burger ikon"></div>
+              </div>
+            </nav>
+          </div>
+
+          <xmp>
+            const navSlide = () => {
+            const burgermenu = document.querySelector('.menu');
+            const nav = document.querySelector('.nav-links2');
+
+            burgermenu.addEventListener('click',()=>{
+            nav.classList.toggle('nav-active');
+            });
+            }
+
+            navSlide();
+
+          </xmp>
+
+
+
+
+
+
+
+</body>
+
+</html>
