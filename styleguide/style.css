@@ -1178,9 +1178,12 @@ margin-top: 0px;
   color: #404f5f;
 }
 .vigtig-text{
-  padding-left: 20px;
-  padding-top: 40px;
+  padding: 20px;
   max-width: 70%;
+}
+
+.vigtig-text p{
+  margin-left: 20px;
 }
 
 
