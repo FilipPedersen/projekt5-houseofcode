@@ -37,17 +37,17 @@ $(document).ready(function() {
   function one() {
     $("#1").css('color', 'white').css('background-color', '#a6bb75');
 
-    $("#2,#4,#5,#6").css('color', ' #a6bb75').css('background-color', 'white');
+    $("#2,#3").css('color', ' #a6bb75').css('background-color', 'white');
   }
 
 
   function two() {
     $("#2").css('color', 'white').css('background-color', '#a6bb75');
-    $("#1,#4,#5,#6").css('color', ' #a6bb75').css('background-color', 'white');
+    $("#1,#3").css('color', ' #a6bb75').css('background-color', 'white');
   }
 
   function three() {
     $("#3").css('color', 'white').css('background-color', '#a6bb75');
-    $("#2,#1,#4,#5,#6").css('color', ' #a6bb75').css('background-color', 'white');
+    $("#2,#1").css('color', ' #a6bb75').css('background-color', 'white');
   }
 });
