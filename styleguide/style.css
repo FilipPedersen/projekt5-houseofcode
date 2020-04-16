@@ -883,6 +883,7 @@ select {
   margin-top: 0px;
 }
 
+
 .kontakt-wrapper {
   max-width: 350px;
   width: 100%;
@@ -1026,6 +1027,41 @@ select {
 #name, #email, #nummer {
   font-family: 'Roboto Mono', monospace;
 }
+
+/* START FIX */
+#myform1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 0px;
+}
+
+.kontakt-wrapper #error_message1 {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.kontakt-wrapper2 #error_message1 {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+#name1, #email1, #nummer1 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* END FIX */
+
+
 
 /* Kontaktformular slut */
 /*Ikoner css start*/
